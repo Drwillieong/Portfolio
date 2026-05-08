@@ -1,100 +1,21 @@
 @import "tailwindcss";
 
-@theme inline {
-  --font-sans: var(--font-geist-sans);
-  /* --- Couleurs de Base --- */
-  --color-background: var(--bg-main);
-  --color-foreground: var(--text-primary);
-  --color-card: var(--bg-card);
-
-  /* --- États & Actions --- */
-  --color-primary: var(--bg-button);
-  --color-primary-foreground: var(--text-button);
-
-  --color-secondary: var(--bg-hover);
-  --color-secondary-foreground: var(--text-primary);
-
-  --color-muted: var(--bg-hover);
-  --color-muted-foreground: var(--text-secondary);
-
-  --color-accent: var(--bg-hover);
-  --color-accent-foreground: var(--text-primary);
-
-  /* --- Bordures & Inputs --- */
-  --color-border: var(--border-card);
-  --color-input: var(--border-input);
-  --color-ring: var(--text-secondary);
-
-  /* --- Statuts (Destructive, etc.) --- */
-  --color-destructive: var(--status-error);
-  --color-destructive-foreground: var(--text-primary);
-  --color-sztatus: var(--text-link);
-  --color-success: var(--status-success);
-  --color-warning: var(--status-warning);
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
 }
 
-:root {
-  --radius: 0.625rem;
-
-  /* --- BACKGROUNDS --- */
-  --bg-main: #000000;
-  --bg-card: #0a0a0a; /* Un gris très sombre pour détacher du fond noir */
-  --bg-button: #ededed;
-  --bg-hover: #1f1f1f;
-
-  /* --- TEXTS --- */
-  --text-primary: #ffffff;
-  --text-secondary: #8f8f8f;
-  --text-button: #0a0a0a;
-  --text-link: #0070f3;
-
-  /* --- BORDERS --- */
-  --border-card: #252525;
-  --border-input: #242424;
-
-  /* --- STATUS --- */
-  --status-success: #50e3c2;
-  --status-error: #ff0000;
-  --status-warning: #f5a623;
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
 }
 
 body {
-  background: var(--color-background);
-  color: var(--color-foreground);
-  font-family: var(--font-sans);
-}
-
-/* globals.css */
-
-@layer utilities {
-  /* Pour Chrome, Safari et Opera */
-  .scrollbar-none::-webkit-scrollbar {
-    display: none;
-  }
-
-  /* Pour IE, Edge et Firefox */
-  .scrollbar-none {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
-}
-
-
-
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #444 transparent;
-}
-
-*::-webkit-scrollbar {
-  width: 6px;
-}
-
-*::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: #444;
-  border-radius: 10px;
+  background: var(--background);
+  color: var(--foreground);
+  font-family:
+    var(--font-sans) Arial,
+    Helvetica,
+    sans-serif;
 }
