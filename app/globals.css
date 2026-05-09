@@ -1,14 +1,52 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #f5f5f5;
   --foreground: #171717;
+
+  --nav-bg: #fefefe;
+  --nav-border: #e5e5e5;
+  --nav-item-bg-active: #1a1a1a;
+  --nav-item-text-active: #ffffff;
+  --nav-item-text: #535353;
+
+  --button-theme: #f5f5f5;
+  --button-theme-text: #171717;
+  --button-theme-hover: #e5e5e5;
+  --button-theme-hover-text: #060606;
+}
+
+.dark {
+  --background: #000000;
+  --foreground: #ffffff;
+
+  --nav-bg: #060606;
+  --nav-border: #1f1f1f;
+  --nav-item-bg-active: #ffffff;
+  --nav-item-text-active: #000000;
+  --nav-item-text: #b4b4b4;
+
+  --button-theme: #131313;
+  --button-theme-text: #898989;
+  --button-theme-hover: #1f1f1f;
+  --button-theme-hover-text: #ffffff;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
+
+  --color-nav-bg: var(--nav-bg);
+  --color-nav-border: var(--nav-border);
+  --color-nav-item-bg-active: var(--nav-item-bg-active);
+  --color-nav-item-text-active: var(--nav-item-text-active);
+  --color-nav-item-text: var(--nav-item-text);
+
+  --color-button-theme: var(--button-theme);
+  --color-button-theme-text: var(--button-theme-text);
+  --color-button-theme-hover: var(--button-theme-hover);
+  --color-button-theme-hover-text: var(--button-theme-hover-text);
 }
 
 body {
