@@ -11,7 +11,7 @@ export default function Home() {
     <div className="flex flex-col flex-1 items-center justify-center text-4xl font-semibold bg-background text-foreground">
       <NavBar />
 
-      <div className="flex flex-col gap-0 items-center justify-center select-none">
+      {/* <div className="flex flex-col gap-0 items-center justify-center select-none">
         <h1
           className={`font-black uppercase text-foreground text-[350px] ${active ? "animate-spin" : "animation-none "}`}
         >
@@ -21,7 +21,7 @@ export default function Home() {
           Full Stack Developer{" "}
           <button onClick={() => setActive(!active)}>/</button> Student
         </h4>
-      </div>
+      </div> */}
     </div>
   );
 }
