@@ -1,4 +1,5 @@
 "use client";
+import Footer from "@/components/layout/Footer";
 import NavBar from "@/components/layout/Navbar";
 import TitlePage from "@/components/layout/TitlePage";
 
@@ -11,6 +12,8 @@ export default function Projects() {
         title="Projets"
         description="Découvrez mes projets et réalisations !"
       />
+
+      <Footer />
     </div>
   );
 }

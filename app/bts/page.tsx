@@ -1,4 +1,5 @@
 "use client";
+import Footer from "@/components/layout/Footer";
 import NavBar from "@/components/layout/Navbar";
 import TitlePage from "@/components/layout/TitlePage";
 
@@ -8,6 +9,8 @@ export default function Bts() {
       <NavBar />
 
       <TitlePage title="Bts" description="Découvrez mon Bts !" />
+
+      <Footer />
     </div>
   );
 }
