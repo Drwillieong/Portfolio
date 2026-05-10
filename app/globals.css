@@ -19,6 +19,9 @@
   --button-theme-hover-text: #060606;
 
   --bg-card: #ffffff;
+
+  --input-border: #d5d5d5;
+  --input-bg: #ededed;
 }
 
 .dark {
@@ -40,6 +43,9 @@
   --button-theme-hover-text: #ffffff;
 
   --bg-card: #0a0a0a;
+
+  --input-border: #262626;
+  --input-bg: #0d0d0d;
 }
 
 @theme inline {
@@ -63,6 +69,9 @@
   --color-button-theme-hover-text: var(--button-theme-hover-text);
 
   --color-bg-card: var(--bg-card);
+
+  --color-input-border: var(--input-border);
+  --color-input-bg: var(--input-bg);
 }
 
 body {
