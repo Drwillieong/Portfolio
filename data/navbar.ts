@@ -6,8 +6,8 @@ export const pages = [
   },
   {
     id: 2,
-    name: "Bts",
-    url: "/bts",
+    name: "À propos",
+    url: "/about",
   },
   {
     id: 3,
