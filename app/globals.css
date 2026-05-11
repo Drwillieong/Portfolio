@@ -2,6 +2,8 @@
 
 @theme inline {
   --font-sans: var(--font-geist-sans);
+
+  --color-sz: #ff2c2c;
 }
 
 @layer base {

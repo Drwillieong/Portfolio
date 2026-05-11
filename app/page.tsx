@@ -1,3 +1,9 @@
+import Hero from "@/components/Section/Hero";
+
 export default function Home() {
-  return <div></div>;
+  return (
+    <main className="max-w-212 mx-auto py-12 sm:py-24 px-6">
+      <Hero />
+    </main>
+  );
 }
