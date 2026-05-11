@@ -25,6 +25,8 @@
 
   --badge-bg: #f5f5f5;
   --badge-border: #dcdcdc;
+
+  --outline-border: #c4c4c4;
 }
 
 .dark {
@@ -52,6 +54,8 @@
 
   --badge-bg: #111111;
   --badge-border: #333333;
+
+  --outline-border: #141414;
 }
 
 @theme inline {
@@ -81,6 +85,8 @@
 
   --color-badge-bg: var(--badge-bg);
   --color-badge-border: var(--badge-border);
+
+  --color-outline-border: var(--outline-border);
 }
 
 body {
