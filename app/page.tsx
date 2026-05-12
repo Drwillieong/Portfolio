@@ -3,6 +3,7 @@ import Education from "@/components/Section/Education";
 import Galerie from "@/components/Section/Galerie";
 import GithubGraph from "@/components/Section/GithubGraph";
 import Hero from "@/components/Section/Hero";
+import Skills from "@/components/Section/Skills";
 import Works from "@/components/Section/Works";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Galerie />
       <Works />
       <Education />
+      <Skills />
     </main>
   );
 }
