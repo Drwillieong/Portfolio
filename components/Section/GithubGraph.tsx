@@ -1,4 +1,3 @@
-import { div } from "framer-motion/client";
 import { GitHubCalendar } from "react-github-calendar";
 
 export default function GithubGraph() {

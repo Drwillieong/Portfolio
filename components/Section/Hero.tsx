@@ -37,6 +37,7 @@ function Hero() {
           width={150}
           height={150}
           className="rounded-full"
+          loading="eager"
         />
       </div>
     </section>
