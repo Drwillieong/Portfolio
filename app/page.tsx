@@ -1,4 +1,5 @@
 import About from "@/components/Section/About";
+import Education from "@/components/Section/Education";
 import Galerie from "@/components/Section/Galerie";
 import GithubGraph from "@/components/Section/GithubGraph";
 import Hero from "@/components/Section/Hero";
@@ -12,6 +13,7 @@ export default function Home() {
       <GithubGraph />
       <Galerie />
       <Works />
+      <Education />
     </main>
   );
 }
