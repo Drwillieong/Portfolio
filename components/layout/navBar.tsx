@@ -15,7 +15,7 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 
 export default function NavBar() {
   return (
-    <nav className="p-3 bg-[#0A0A0A] border border-[#242424] rounded-full w-fit z-900 fixed flex flex-row items-center justify-center gap-3 left-1/2 -translate-x-1/2 bottom-2">
+    <nav className="p-3 bg-card border border-border rounded-full w-fit z-900 fixed flex flex-row items-center justify-center gap-3 left-1/2 -translate-x-1/2 bottom-2">
       {/* Logo */}
       <Link
         data-slot="NavLogo"
@@ -26,7 +26,7 @@ export default function NavBar() {
       </Link>
 
       {/* Separator */}
-      <div className="w-px h-5 bg-[#2D2D2D] rounded-2xl" />
+      <div className="w-px h-5 bg-border rounded-2xl" />
 
       <div
         data-slot="NavContainer"
@@ -39,7 +39,7 @@ export default function NavBar() {
       </div>
 
       {/* Separator */}
-      <div className="w-px h-5 bg-[#2D2D2D] rounded-2xl" />
+      <div className="w-px h-5 bg-border rounded-2xl" />
 
       {/* button share */}
       <NavShare />
@@ -66,8 +66,8 @@ function NavItem({
           href={link}
           className={`aspect-square h-7 flex items-center justify-center transition-all duration-300 cursor-pointer active:scale-90 ${
             pathname === link
-              ? "text-[#eeeef0]"
-              : "text-[#A1A1A1] hover:text-[#eeeef0]"
+              ? "text-sz"
+              : "text-muted-foreground hover:text-foreground"
           }`}
         >
           <Icon size={16} />
@@ -95,7 +95,7 @@ function NavShare() {
         <button
           onClick={handleShare}
           data-slot="NavShare"
-          className="flex aspect-square h-7 items-center justify-center text-[#A1A1A1] hover:text-[#eeeef0] transition-all duration-300 cursor-pointer active:scale-90"
+          className="flex aspect-square h-7 items-center justify-center text-muted-foreground hover:text-foreground transition-all duration-300 cursor-pointer active:scale-90"
         >
           <Share size={16} />
         </button>

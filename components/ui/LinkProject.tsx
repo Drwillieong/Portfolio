@@ -24,7 +24,7 @@ export default function LinkProject({
     <Link
       href={link}
       className={cn(
-        "group flex flex-row items-center justify-between bg-[#08090A] border border-[#262626] rounded-xl",
+        "group flex flex-row items-center justify-between bg-card border border-border rounded-xl",
         className,
       )}
     >
