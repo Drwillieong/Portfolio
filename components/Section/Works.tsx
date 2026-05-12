@@ -6,7 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { workData } from "@/data/works";
+import { workData } from "@/data/user";
 
 export default function Works() {
   return (
