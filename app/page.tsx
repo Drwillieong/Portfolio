@@ -1,4 +1,5 @@
 import About from "@/components/Section/About";
+import Contact from "@/components/Section/Contact";
 import Education from "@/components/Section/Education";
 import Galerie from "@/components/Section/Galerie";
 import GithubGraph from "@/components/Section/GithubGraph";
@@ -18,6 +19,7 @@ export default function Home() {
       <Education />
       <Skills />
       <Project />
+      <Contact />
     </main>
   );
 }
