@@ -3,7 +3,10 @@ import { CardEducation } from "../ui/CardEducation";
 
 export default function Education() {
   return (
-    <section className="max-w-7xl mx-auto relative flex flex-col gap-3">
+    <section
+      className="max-w-7xl mx-auto relative flex flex-col gap-3"
+      id="education"
+    >
       <h3 className="text-2xl font-bold">Mes Études</h3>
 
       <div className="w-full space-y-1">

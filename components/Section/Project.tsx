@@ -1,9 +1,4 @@
-import {
-  BriefcaseBusiness,
-  ChevronDown,
-  FolderOpen,
-  GraduationCap,
-} from "lucide-react";
+import { BriefcaseBusiness, FolderOpen, GraduationCap } from "lucide-react";
 import LinkProject from "../ui/LinkProject";
 
 const ProjectType = {
@@ -35,7 +30,10 @@ const ProjectType = {
 
 export default function Project() {
   return (
-    <section className="max-w-7xl mx-auto relative flex flex-col gap-3">
+    <section
+      className="max-w-7xl mx-auto relative flex flex-col gap-3"
+      id="projects-list"
+    >
       <h3 className="text-2xl font-bold">Mes Projets</h3>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">

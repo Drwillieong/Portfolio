@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Galerie() {
   return (
-    <section className="max-w-7xl mx-auto relative flex flex-col gap-3">
+    <section className="max-w-7xl mx-auto relative flex flex-col gap-3" id="galerie">
       <h3 className="text-2xl font-bold">Galerie de mes moments</h3>
 
       <div className="grid grid-cols-2 md:grid-cols-4 auto-rows-[50px] md:auto-rows-[100px] gap-2">

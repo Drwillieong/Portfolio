@@ -10,7 +10,10 @@ import { workData } from "@/data/user";
 
 export default function Works() {
   return (
-    <section className="max-w-7xl mx-auto relative flex flex-col gap-3">
+    <section
+      className="max-w-7xl mx-auto relative flex flex-col gap-3"
+      id="works"
+    >
       <h3 className="text-2xl font-bold">Mes Expériences</h3>
 
       <Accordion type="single" collapsible className="w-full space-y-1">

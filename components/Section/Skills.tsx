@@ -4,10 +4,10 @@ import { Frameworks, Languages, Logiciels } from "@/data/stacks";
 
 export default function Skills() {
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3" id="skills">
       <h3 className="text-2xl font-bold">Compétences</h3>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4" id="stacks">
         <div className="w-full flex flex-col gap-1.5">
           <h5 className="text-md font-medium">Langage</h5>
 
@@ -22,7 +22,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="w-full flex flex-col gap-1.5">
+        <div className="w-full flex flex-col gap-1.5" id="frameworks">
           <h5 className="text-md font-medium">Frameworks & Technologie</h5>
 
           <div className="flex flex-row gap-2 flex-wrap">
@@ -36,7 +36,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="w-full flex flex-col gap-1.5">
+        <div className="w-full flex flex-col gap-1.5" id="software">
           <h5 className="text-md font-medium">Logiciel</h5>
 
           <div className="flex flex-row gap-2 flex-wrap">

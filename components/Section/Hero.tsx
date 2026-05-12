@@ -6,7 +6,7 @@ import { socials } from "@/data/user";
 
 function Hero() {
   return (
-    <section className="flex justify-between items-center gap-4">
+    <section className="flex justify-between items-center gap-4" id="home">
       <div className="flex flex-col gap-3 justify-start items-start">
         <h1 className="md:text-5xl text-3xl font-bold">
           Salut, je suis Alexis <Coucou />

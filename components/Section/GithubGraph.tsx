@@ -12,7 +12,7 @@ export default function GithubGraph() {
   };
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center" id="github">
       <GitHubCalendar
         username="FlytziTv"
         colorScheme="dark"
