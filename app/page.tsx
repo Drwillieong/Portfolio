@@ -2,6 +2,7 @@ import About from "@/components/Section/About";
 import Galerie from "@/components/Section/Galerie";
 import GithubGraph from "@/components/Section/GithubGraph";
 import Hero from "@/components/Section/Hero";
+import Works from "@/components/Section/Works";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <GithubGraph />
       <Galerie />
+      <Works />
     </main>
   );
 }
