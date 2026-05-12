@@ -7,45 +7,68 @@ import {
   Check,
   HomeIcon,
   LucideIcon,
-  Mail,
   Share,
   User,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 import { useState } from "react";
+import { socials } from "@/data/user";
+import { Linkedin } from "../Icons/linkedin";
+import { Github } from "../Icons/github";
+import { Gmail } from "../Icons/gmail";
 
 export default function NavBar() {
   return (
-    <nav className="p-3 bg-card border border-border rounded-full w-fit z-900 fixed flex flex-row items-center justify-center gap-3 left-1/2 -translate-x-1/2 bottom-2">
+    <nav className="p-2 bg-card border border-border rounded-full flex flex-row items-center justify-center gap-2 w-fit z-900 fixed left-1/2 -translate-x-1/2 bottom-2">
       {/* Logo */}
-      <Link
-        data-slot="NavLogo"
-        href="/"
-        className="aspect-square h-7 flex items-center justify-center hover:opacity-60 transition-opacity duration-300 cursor-pointer"
-      >
-        <Logo size={16} />
-      </Link>
+      <IconLink link="/" Icon={Logo} label="Accueil" />
 
       {/* Separator */}
       <div className="w-px h-5 bg-border rounded-2xl" />
 
-      <div
-        data-slot="NavContainer"
-        className="hidden sm:flex flex-row items-center justify-center gap-4"
-      >
-        <NavItem Icon={HomeIcon} link="/" label="Accueil" />
-        <NavItem Icon={User} link="/about" label="À propos" />
-        <NavItem Icon={Briefcase} link="/projects" label="Projets" />
-        <NavItem Icon={Mail} link="/contact" label="Contact" />
-      </div>
+      <NavItem Icon={HomeIcon} link="/" label="Accueil" />
+      <NavItem Icon={User} link="/about" label="À propos" />
+      <NavItem Icon={Briefcase} link="/projects" label="Projets" />
 
       {/* Separator */}
       <div className="w-px h-5 bg-border rounded-2xl" />
 
-      {/* button share */}
+      <IconLink link={socials.mail} Icon={Gmail} label="Email" />
+      <IconLink link={socials.linkedin} Icon={Linkedin} label="LinkedIn" />
+      <IconLink link={socials.github} Icon={Github} label="GitHub" />
+
+      {/* Separator */}
+      <div className="w-px h-5 bg-border rounded-2xl" />
+
       <NavShare />
     </nav>
+  );
+}
+
+function IconLink({
+  link,
+  Icon,
+  label,
+}: {
+  link: string;
+  Icon: React.ElementType;
+  label: string;
+}) {
+  return (
+    <Tooltip>
+      <TooltipTrigger asChild>
+        <Link
+          href={link}
+          className="aspect-square h-7 flex items-center justify-center hover:opacity-60 transition-opacity duration-300 cursor-pointer"
+        >
+          <Icon size={16} color="hsl(var(--foreground))" />
+        </Link>
+      </TooltipTrigger>
+      <TooltipContent className="z-950 mb-4">
+        <p>{label}</p>
+      </TooltipContent>
+    </Tooltip>
   );
 }
 
@@ -69,7 +92,7 @@ function NavItem({
           className={`aspect-square h-7 flex items-center justify-center transition-all duration-300 cursor-pointer active:scale-90 ${
             pathname === link
               ? "text-sz"
-              : "text-muted-foreground hover:text-foreground"
+              : "text-foreground hover:text-muted-foreground "
           }`}
         >
           <Icon size={16} />
@@ -112,7 +135,7 @@ export function NavShare() {
         >
           <Share
             size={16}
-            className={`absolute transition-all duration-300 ${
+            className={`absolute text-foreground transition-all duration-300 ${
               isCopied ? "scale-0 opacity-0" : "scale-100 opacity-100"
             }`}
           />

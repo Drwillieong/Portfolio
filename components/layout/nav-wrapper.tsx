@@ -1,6 +1,12 @@
-"use client";
-import NavBar from "./navBar";
+import NavBar from "./NavBar";
+import SwitchTheme from "./SwitchTheme";
 
 export function NavWrapper() {
-  return <NavBar />;
+  return (
+    <>
+      <NavBar />
+
+      <SwitchTheme />
+    </>
+  );
 }

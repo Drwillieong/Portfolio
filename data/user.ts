@@ -1,6 +1,7 @@
 export const socials = {
   github: "https://github.com/FlytziTv",
   linkedin: "https://www.linkedin.com/in/alexis-dejesus/",
+  mail: "mailto:alexis.dejesus019@gmail.com",
 };
 
 const cheminWork = "/images/work/";

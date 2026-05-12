@@ -26,11 +26,13 @@ export default function SwitchTheme() {
 
   return (
     <button
-      className="h-full aspect-square bg-button-theme hover:bg-button-theme-hover text-button-theme-text hover:text-button-theme-hover-text rounded-full flex flex-row items-center justify-center transition-all duration-500 cursor-pointer"
+      className="p-2 bg-card border border-border rounded-full flex flex-col-reverse items-center bottom-2 right-2 justify-center gap-2 w-fit z-50 fixed cursor-pointer"
       onClick={handleToggleTheme}
       aria-label="Toggle Theme"
     >
-      {theme === "light" ? <Sun size={16} /> : <Moon size={16} />}
+      <span className="aspect-square h-7 flex items-center justify-center hover:opacity-60 transition-opacity duration-300 cursor-pointer">
+        {theme === "light" ? <Sun size={16} /> : <Moon size={16} />}
+      </span>
     </button>
   );
 }
