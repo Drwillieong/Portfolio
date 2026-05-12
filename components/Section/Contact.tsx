@@ -9,7 +9,7 @@ export default function Contact() {
       id="contact"
     >
       <h3 className="md:text-5xl font-bold text-center">Contactez-moi</h3>
-      <p className="text-center text-md w-[80%] text-white">
+      <p className="text-center text-md w-[80%] text-foreground">
         Une question ou un projet ? Contactez-moi directement sur{" "}
         <a
           href={socials.linkedin}

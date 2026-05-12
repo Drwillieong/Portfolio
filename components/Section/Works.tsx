@@ -32,8 +32,10 @@ export default function Works() {
             />
             <AccordionContent className="px-4">
               <div className="flex flex-col gap-1.5">
-                <p className="text-sm text-white font-medium">{work.date}</p>
-                <p className="text-(--color-text)">{work.description}</p>
+                <p className="text-sm text-foreground font-medium">
+                  {work.date}
+                </p>
+                <p className="text-foreground">{work.description}</p>
               </div>
             </AccordionContent>
           </AccordionItem>

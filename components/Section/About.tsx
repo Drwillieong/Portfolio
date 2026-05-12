@@ -9,9 +9,9 @@ function About() {
       id="about"
     >
       <h3 className="text-2xl font-bold">À Propos</h3>
-      <p className="text-(--color-text) text-sm">
+      <p className="text-foreground text-sm">
         Je suis
-        <span className="text-white font-medium mx-1">
+        <span className="text-foreground font-medium mx-1">
           développeur Full-Stack
         </span>
         passionné par la création d’applications web modernes, rapides et
@@ -29,7 +29,7 @@ function TextLink({ text }: { text: string }) {
   return (
     <Link
       href="#stack"
-      className="text-white font-medium underline-offset-2 underline"
+      className="text-foreground font-medium underline-offset-2 underline"
     >
       {text}
     </Link>

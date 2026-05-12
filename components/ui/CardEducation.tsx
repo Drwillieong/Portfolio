@@ -28,7 +28,7 @@ export function CardEducation({
           </div>
         </div>
 
-        <p className="text-sm text-white font-normal">{date}</p>
+        <p className="text-sm text-foreground font-normal">{date}</p>
       </div>
     </div>
   );
