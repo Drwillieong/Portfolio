@@ -18,7 +18,7 @@ export default function Works() {
           <AccordionItem
             key={index}
             value={`item-${index + 1}`}
-            className="bg-white/3 rounded-xl"
+            className="rounded-xl"
           >
             <AccordionTrigger
               imageSrc={work.image}
@@ -39,18 +39,3 @@ export default function Works() {
     </section>
   );
 }
-// <Accordion type="single" collapsible>
-//   {workData.map((work, index) => (
-//     <AccordionItem key={index} value={`item-${index + 1}`}>
-//       <AccordionTrigger imageSrc={work.image} title={work.title} />
-//       <AccordionContent>
-//         <div className="space-y-2">
-//           <p className="text-sm text-[var(--color-white)] font-medium">
-//             {work.date}
-//           </p>
-//           <p className="text-[var(--color-text)]">{work.description}</p>
-//         </div>
-//       </AccordionContent>
-//     </AccordionItem>
-//   ))}
-// </Accordion>

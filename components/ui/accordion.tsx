@@ -59,11 +59,9 @@ function AccordionTrigger({
             className="h-11 w-11 rounded-full object-cover"
           />
           <div className="flex flex-col gap-0.5">
-            <span className="text-base font-medium">
-              {title} {more && `- ${more}`}
-            </span>
+            <span className="text-base font-medium">{company}</span>
             <p className="text-xs font-normal text-muted-foreground">
-              {company}
+              {title} {more && `- ${more}`}
             </p>
           </div>
         </div>

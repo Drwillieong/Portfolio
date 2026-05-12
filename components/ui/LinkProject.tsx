@@ -21,14 +21,15 @@ export default function LinkProject({
   className,
 }: LinkProjectProps) {
   return (
-    <div
+    <Link
+      href={link}
       className={cn(
-        "flex flex-row items-center justify-between bg-white/3 rounded-xl",
+        "group flex flex-row items-center justify-between bg-[#08090A] border border-[#262626] rounded-xl",
         className,
       )}
     >
-      <div className="group flex w-full items-center justify-between gap-4 p-4 text-left text-sm font-medium outline-none transition-all">
-        <div className="flex items-center gap-4">
+      <div className="flex w-full items-center justify-between gap-2 p-2 text-left text-sm font-medium outline-none transition-all">
+        <div className="flex items-center gap-2">
           <div
             className="flex items-center justify-center size-11 rounded-lg"
             style={{
@@ -47,13 +48,13 @@ export default function LinkProject({
           </div>
         </div>
 
-        <Link
-          href={link}
-          className="text-sm text-white font-medium size-11 flex items-center justify-center"
-        >
-          <ExternalLink size={16} />
-        </Link>
+        <div className="text-sm text-white font-medium size-11 flex items-center justify-center">
+          <ExternalLink
+            size={16}
+            className="transition-transform duration-500 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+          />
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
