@@ -91,6 +91,7 @@
 }
 
 body {
+  @apply selection:bg-sz selection:text-white;
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
 
