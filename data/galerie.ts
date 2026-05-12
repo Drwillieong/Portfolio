@@ -8,5 +8,5 @@ export const imagesGalerie = [
   { src: `${cheminBase}voiture-bmw-n-1.JPG`, size: "md:col-span-1 row-span-2" },
   { src: `${cheminBase}fatima.JPG`, size: "col-span-1 row-span-1" },
   { src: `${cheminBase}montagne.JPG`, size: "col-span-1 row-span-1" },
-  { src: `${cheminBase}setup-1.png`, size: "md:col-span-2 row-span-1" },
+  { src: `${cheminBase}setup-1.JPG`, size: "md:col-span-2 row-span-1" },
 ];
