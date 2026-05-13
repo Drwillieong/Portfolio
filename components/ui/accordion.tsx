@@ -45,7 +45,7 @@ function AccordionTrigger({
     <AccordionPrimitive.Header className="flex">
       <AccordionPrimitive.Trigger
         className={cn(
-          "group flex w-full items-center justify-between gap-4 py-4 text-left text-sm font-medium outline-none transition-all",
+          "group flex w-full items-center justify-between gap-4 py-4 text-left text-sm font-medium outline-none transition-all cursor-pointer",
           className,
         )}
         {...props}
