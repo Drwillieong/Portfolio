@@ -74,6 +74,52 @@ function AccordionTrigger({
   );
 }
 
+function AccordionTrigger2({
+  className,
+  imageSrc,
+  title,
+  company,
+  more,
+  ...props
+}: React.ComponentProps<typeof AccordionPrimitive.Trigger> & {
+  imageSrc: string;
+  title: string;
+  company: string;
+  more?: string;
+}) {
+  return (
+    <AccordionPrimitive.Header className="flex">
+      <AccordionPrimitive.Trigger
+        className={cn(
+          "group flex w-full items-center justify-between gap-4 py-4 text-left text-sm font-medium outline-none transition-all cursor-pointer",
+          className,
+        )}
+        {...props}
+      >
+        <div className="flex items-center gap-4">
+          <Image
+            src={imageSrc}
+            width={44}
+            height={44}
+            alt="icon"
+            className="h-11 w-11 rounded-full object-contain bg-white p-1.5"
+          />
+          <div className="flex flex-col gap-0.5">
+            <span className="text-base font-medium">{company}</span>
+            <p className="text-xs font-normal text-muted-foreground">
+              {title} {more && `- ${more}`}
+            </p>
+          </div>
+        </div>
+
+        <div className="h-11 w-11 flex items-center justify-center">
+          <ChevronDownIcon className="text-muted-foreground size-4 shrink-0 transition-transform duration-300 group-data-[state=open]:rotate-180" />
+        </div>
+      </AccordionPrimitive.Trigger>
+    </AccordionPrimitive.Header>
+  );
+}
+
 function AccordionContent({
   className,
   children,
@@ -105,4 +151,10 @@ function AccordionContent({
   );
 }
 
-export { Accordion, AccordionItem, AccordionTrigger, AccordionContent };
+export {
+  Accordion,
+  AccordionItem,
+  AccordionTrigger,
+  AccordionTrigger2,
+  AccordionContent,
+};
