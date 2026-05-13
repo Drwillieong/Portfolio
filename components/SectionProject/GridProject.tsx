@@ -11,7 +11,7 @@ export default function GridProject({ projects }: GridProjectProps) {
       {projects.reverse().map((project) => (
         <ProjectCard
           key={project.id}
-          imageSrc={project.image[0]}
+          imageSrc={project.image?.[0]}
           title={project.title}
           description={project.desc}
           role={project.role}
