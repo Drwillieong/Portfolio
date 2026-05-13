@@ -1,20 +1,17 @@
-import { ProjectProps } from "./project-e5";
+import { ProjectProps } from "@/lib/type";
 
 export const projects_perso: ProjectProps[] = [
   {
     id: 1,
     title: "Interface garage FiveM",
     desc: "Interface utilisateur pour la gestion des garages dans les serveurs FiveM (GTA V). Permet aux joueurs de stocker, récupérer et gérer leurs véhicules en jeu.",
-    color: "#FF7508",
+    role: "Développeur Frontend",
     stack: ["Next.js", "Tailwind", "TypeScript", "Lucide", "Vercel"],
-    list: [
-      {
-        title: "Documentation",
-        link: "",
-      },
-      { title: "Site Web", link: "" },
-      { title: "Github", link: "https://github.com/FlytziTv/sz-fivem" },
-    ],
+    list: {
+      githubLink: "https://github.com/FlytziTv/sz-fivem",
+      documentationLink: "",
+      websiteLink: "",
+    },
     image: [
       "/images/projects/perso/fivem-garage-1.png",
       "/images/projects/perso/fivem-garage-2.png",
@@ -26,7 +23,7 @@ export const projects_perso: ProjectProps[] = [
     id: 2,
     title: "Portfolio Alexis De Jesus",
     desc: "Hub digital full-stack conçu comme un dashboard de monitoring. Ce projet centralise mes expériences via une architecture modulaire en TypeScript, intégrant des API routes pour le contact.",
-    color: "#",
+    role: "Développeur Full Stack",
     stack: [
       "Next.js",
       "Tailwind",
@@ -36,31 +33,26 @@ export const projects_perso: ProjectProps[] = [
       "resend",
       "Vercel",
     ],
-    list: [
-      {
-        title: "Documentation",
-        link: "/files/projets/mission/portfolio.pdf",
-      },
-      { title: "Site Web", link: "" },
-      { title: "Github", link: "https://github.com/FlytziTv/sz-slam" },
-    ],
+    list: {
+      githubLink: "https://github.com/FlytziTv/sz-slam",
+      documentationLink: "/files/projects/perso/portfolio.pdf",
+      websiteLink: "https://aalexis.fr",
+    },
     image: ["/images/projects/perso/sz-folio.png"],
     status: "En cours",
+    favorite: true,
   },
   {
     id: 3,
     title: "Absolute Stream",
     desc: "Application web de reviews de films et séries. Permet de noter, commenter et consulter les critiques via l'API TMDB.",
-    color: "#006EFF",
+    role: "Développeur Full Stack",
     stack: ["Next.js", "Tailwind", "TypeScript", "TMDB API"],
-    list: [
-      {
-        title: "Documentation",
-        link: "",
-      },
-      { title: "Site Web", link: "" },
-      { title: "Github", link: "https://github.com/FlytziTv/Absolute_Stream" },
-    ],
+    list: {
+      githubLink: "https://github.com/FlytziTv/Absolute_Stream",
+      documentationLink: "",
+      websiteLink: "",
+    },
     image: ["/images/projects/perso/absolute-stream.png"],
     status: "En cours",
   },
@@ -68,37 +60,32 @@ export const projects_perso: ProjectProps[] = [
     id: 4,
     title: "Nono's Cook",
     desc: "Site vitrine pour un particulier passionné de cuisine de gâteau. L'application présente ces créations, cela permet aussi de passer commande pour des gâteaux personnalisés.",
-    color: "#91C2E8",
+    role: "Développeur Full Stack",
     stack: ["Next.js", "Tailwind", "TypeScript", "Lucide", "Vercel", "NeonDB"],
-    list: [
-      {
-        title: "Documentation",
-        link: "",
-      },
-      { title: "Site Web", link: "" },
-      { title: "Github", link: "https://github.com/FlytziTv/cookbynolan" },
-    ],
+    list: {
+      githubLink: "https://github.com/FlytziTv/cookbynolan",
+      documentationLink: "",
+      websiteLink: "https://cookbynolan.vercel.app/",
+    },
     image: [
       "/images/projects/perso/cookbynolan-1.png",
       "/images/projects/perso/cookbynolan-2.png",
       "/images/projects/perso/cookbynolan-3.png",
     ],
     status: "En cours",
+    favorite: true,
   },
   {
     id: 5,
     title: "SZ Développement ",
     desc: "Site vitrine mon collectif de développeur informatique. L'application présente les différents projets réalisés par le collectif, ainsi que les membres qui le composent.",
-    color: "##0070f3",
+    role: "Développeur Full Stack",
     stack: ["Next.js", "Tailwind", "TypeScript", "Lucide", "Vercel"],
-    list: [
-      {
-        title: "Documentation",
-        link: "",
-      },
-      { title: "Site Web", link: "https://www.sz-dev.fr/" },
-      { title: "Github", link: "" },
-    ],
+    list: {
+      githubLink: "https://github.com/SZ-Developpement/website",
+      documentationLink: "",
+      websiteLink: "https://www.sz-dev.fr/",
+    },
     image: [
       "/images/projects/perso/sz-dev-1.png",
       "/images/projects/perso/sz-dev-2.png",
