@@ -13,8 +13,8 @@ export function CardEducation({
 }) {
   return (
     <div className="flex flex-row items-center justify-between rounded-xl">
-      <div className="group flex w-full items-center justify-between gap-4 p-4 text-left text-sm font-medium outline-none transition-all">
-        <div className="flex items-center gap-4">
+      <div className="group flex flex-col md:flex-row w-full items-start md:items-center justify-between gap-4 p-4 text-left text-sm font-medium outline-none transition-all">
+        <div className="flex flex-row items-center gap-4">
           <Image
             src={imageSrc}
             width={44}

@@ -6,12 +6,15 @@ import { socials } from "@/data/user";
 
 function Hero() {
   return (
-    <section className="flex justify-between items-center gap-4" id="home">
-      <div className="flex flex-col gap-3 justify-start items-start">
+    <section
+      className="flex flex-col-reverse sm:flex-row justify-between items-center gap-4"
+      id="home"
+    >
+      <div className="flex flex-col gap-3 justify-start items-center sm:items-start">
         <h1 className="md:text-5xl text-3xl font-bold">
           Salut, je suis Alexis <Coucou />
         </h1>
-        <p className="lg:text-base md:text-lg max-w-[75%]">
+        <p className="lg:text-base md:text-lg text-center sm:text-left sm:max-w-[75%]">
           Développeur Full-Stack passionné par la création d’applications web
           modernes et performantes. Toujours en train d’apprendre et de créer.
           Connectons-nous sur
@@ -47,7 +50,7 @@ function Hero() {
 export function Coucou() {
   return (
     <motion.div
-      className="inline-block origin-[70%_70%] text-6xl cursor-pointer"
+      className="inline-block origin-[70%_70%] sm:text-3xl md:text-6xl cursor-pointer"
       animate={{ rotate: [0, 14, -8, 14, -4, 10, 0, 0] }}
       transition={{
         duration: 2.5,

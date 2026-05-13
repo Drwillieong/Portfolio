@@ -24,7 +24,7 @@ const ProjectType = {
     link: "/projects/perso",
     icon: FolderOpen,
     color: "#ff2c2c",
-    className: "col-span-2",
+    className: "col-span-1 md:col-span-2",
   },
 };
 

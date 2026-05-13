@@ -6,7 +6,10 @@ import Image from "next/image";
 
 export default function HeroAbout() {
   return (
-    <section className="flex justify-between items-center gap-4" id="home">
+    <section
+      className="flex md:flex-row flex-col-reverse justify-between items-start md:items-center gap-4"
+      id="home"
+    >
       <div className="flex flex-col gap-3 justify-start items-start">
         <h1 className="md:text-5xl text-3xl font-bold">Alexis DE JESUS</h1>
         <p className="text-muted-foreground text-base italic tracking-wide">

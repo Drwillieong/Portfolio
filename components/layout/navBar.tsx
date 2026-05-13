@@ -1,5 +1,8 @@
 "use client";
 
+import { Moon, Sun } from "lucide-react";
+import { useTheme } from "next-themes";
+
 import Link from "next/link";
 import { Logo } from "../Icons/icon";
 import {
@@ -43,7 +46,8 @@ export default function NavBar() {
       {/* Separator */}
       <div className="w-px h-5 bg-border rounded-2xl" />
 
-      <NavShare />
+      {/* <NavShare /> */}
+      <IconTheme />
     </nav>
   );
 }
@@ -69,6 +73,33 @@ function IconLink({
       </TooltipTrigger>
       <TooltipContent className="z-950 mb-4">
         <p>{label}</p>
+      </TooltipContent>
+    </Tooltip>
+  );
+}
+
+function IconTheme() {
+  const { theme, setTheme } = useTheme();
+
+  const handleToggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
+
+  return (
+    <Tooltip>
+      <TooltipTrigger asChild>
+        <button
+          onClick={handleToggleTheme}
+          aria-label="Toggle Theme"
+          suppressHydrationWarning
+          className="aspect-square h-7 flex items-center justify-center hover:opacity-60 transition-opacity duration-300 cursor-pointer"
+        >
+          <Sun size={16} className="dark:hidden" />
+          <Moon size={16} className="hidden dark:block" />{" "}
+        </button>
+      </TooltipTrigger>
+      <TooltipContent className="z-950 mb-4">
+        <p>Changer de thème</p>
       </TooltipContent>
     </Tooltip>
   );
