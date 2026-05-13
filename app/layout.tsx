@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/layout/theme-provider";
+
 import LenisScroll from "@/components/layout/LenisScroll";
-import PageTransition from "@/components/layout/PageTransition";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { NavWrapper } from "@/components/layout/nav-wrapper";
 
@@ -58,9 +58,7 @@ export default function RootLayout({
         >
           <TooltipProvider>
             <NavWrapper />
-            <LenisScroll>
-              <PageTransition>{children}</PageTransition>
-            </LenisScroll>
+            <LenisScroll>{children}</LenisScroll>
           </TooltipProvider>
         </ThemeProvider>
       </body>
