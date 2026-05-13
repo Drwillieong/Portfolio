@@ -77,7 +77,7 @@ export const projects_perso: ProjectProps[] = [
   },
   {
     id: 5,
-    title: "SZ Développement ",
+    title: "SZ Développement",
     desc: "Site vitrine mon collectif de développeur informatique. L'application présente les différents projets réalisés par le collectif, ainsi que les membres qui le composent.",
     role: "Développeur Full Stack",
     stack: ["Next.js", "Tailwind", "TypeScript", "Lucide", "Vercel"],
@@ -92,5 +92,124 @@ export const projects_perso: ProjectProps[] = [
       "/images/projects/perso/sz-dev-3.png",
     ],
     status: "Terminé",
+  },
+
+  {
+    id: 6,
+    title: "szproj",
+    desc: "Outil en ligne de commande pour créer des projets rapidement depuis le terminal.",
+    role: "Développeur Full Stack",
+    stack: ["Git", "Shell"],
+    list: {
+      githubLink: "https://github.com/FlytziTv/szproj",
+      documentationLink: "",
+      websiteLink: "",
+    },
+    image: [],
+    status: "En cours",
+  },
+
+  {
+    id: 7,
+    title: "LogPulse",
+    desc: "LogPulse est un dashboard de logs self-hosted qui centralise les logs de plusieurs projets en un seul endroit, avec un streaming en temps réel.",
+    role: "Développeur Full Stack",
+    stack: [
+      "Node.js",
+      "Express",
+      "Next.js",
+      "Prisma",
+      "Tailwind",
+      "Lucide",
+      "Better Auth",
+      "Prostgresql",
+    ],
+    list: {
+      githubLink: "https://github.com/FlytziTv/LogPulse",
+      documentationLink: "",
+      websiteLink: "",
+    },
+    image: [
+      "/images/projects/perso/LogPulse-1.png",
+      "/images/projects/perso/LogPulse-2.png",
+      "/images/projects/perso/LogPulse-3.png",
+    ],
+    status: "En cours",
+  },
+
+  {
+    id: 8,
+    title: "CvBuilder",
+    desc: "Générateur de CV moderne pour créer, prévisualiser et exporter un CV rapidement",
+    role: "Développeur Full Stack",
+    stack: ["React", "TypeScript", "Next.js", "Tailwind", "Lucide", "Pdf Lib"],
+    list: {
+      githubLink: "https://github.com/FlytziTv/CvBuilder",
+      documentationLink: "",
+      websiteLink: "",
+    },
+    image: [
+      "/images/projects/perso/CvBuilder-1.png",
+      "/images/projects/perso/CvBuilder-2.png",
+      "/images/projects/perso/CvBuilder-3.png",
+    ],
+    status: "Terminé",
+  },
+
+  {
+    id: 9,
+    title: "MyDriveLog",
+    desc: "MyDriveLog est une application web personnelle destinée aux propriétaires de véhicules, passionnés ou non. Elle centralise tout ce qui concerne ta voiture en un seul endroit : la fiche technique du véhicule, l'historique complet des interventions mécaniques, et l'organisation de tes trajets et road trips entre amis avec partage des dépenses.",
+    role: "Développeur Full Stack",
+    stack: [
+      "React",
+      "Node.js",
+      "Jwt",
+      "Express",
+      "PostgreSQL",
+      "Puppeteer",
+      "Tailwind",
+      "Lucide",
+    ],
+    list: {
+      githubLink: "https://github.com/FlytziTv/MyDriveLog",
+      documentationLink: "",
+      websiteLink: "",
+    },
+    image: [
+      "/images/projects/perso/MyDriveLog-1.png",
+      "/images/projects/perso/MyDriveLog-2.png",
+      "/images/projects/perso/MyDriveLog-3.png",
+    ],
+    status: "En cours",
+  },
+
+  {
+    id: 10,
+    title: "Projex",
+    desc: "Dashboard de suivi de projets personnels avec intégration CLI — gérez vos projets et étapes directement depuis votre terminal.",
+    role: "Développeur Full Stack",
+    stack: [
+      "React",
+      "Node.js",
+      "Jwt",
+      "Express",
+      "PostgreSQL",
+      "TypeScript",
+      "Tailwind",
+      "Lucide",
+      "Zod",
+    ],
+    list: {
+      githubLink: "https://github.com/FlytziTv/Projex",
+      documentationLink: "",
+      websiteLink: "",
+    },
+    image: [
+      "/images/projects/perso/Projex-1.png",
+      "/images/projects/perso/Projex-2.png",
+      "/images/projects/perso/Projex-3.png",
+    ],
+    status: "En cours",
   },
 ];
