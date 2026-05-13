@@ -1,16 +1,11 @@
-"use client"; // Obligatoire car on va utiliser des hooks (useTheme, useState)
+"use client";
 
+import dynamic from "next/dynamic";
 import { GitHubCalendar } from "react-github-calendar";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 
-export default function GithubGraph() {
+function GithubGraphComponent() {
   const { resolvedTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
 
   const themeSZ = {
     light: [
@@ -29,15 +24,6 @@ export default function GithubGraph() {
     ],
   };
 
-  if (!mounted) {
-    return (
-      <div
-        className="flex items-center justify-center min-h-37"
-        id="github"
-      ></div>
-    );
-  }
-
   return (
     <div className="flex items-center justify-center" id="github">
       <GitHubCalendar
@@ -51,3 +37,13 @@ export default function GithubGraph() {
     </div>
   );
 }
+
+export default dynamic(() => Promise.resolve(GithubGraphComponent), {
+  ssr: false,
+  loading: () => (
+    <div
+      className="flex items-center justify-center min-h-37"
+      id="github"
+    ></div>
+  ),
+});

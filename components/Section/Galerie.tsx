@@ -27,12 +27,13 @@ export default function Galerie() {
               src={item.src}
               alt={`Galerie moment ${index + 1}`}
               fill
+              loading="eager"
               className="object-cover transition-transform duration-700 group-hover:scale-110"
               sizes="(max-width: 768px) 50vw, 25vw"
             />
 
             {/* Overlay plus élégant */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <div className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>
         ))}
       </div>
