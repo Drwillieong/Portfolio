@@ -4,7 +4,7 @@ import { FileText, Globe } from "lucide-react";
 import Image from "next/image";
 
 export interface ProjectCardProps {
-  imageSrc: string;
+  imageSrc?: string;
   title: string;
   description: string;
   role: string;
@@ -26,14 +26,18 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <div className="rounded-xl text-card-foreground shadow flex flex-col overflow-hidden border border-border hover:shadow-lg transition-all duration-300 ease-out h-full bg-card">
-      <div className="relative h-40 w-full overflow-hidden">
-        <Image
-          src={imageSrc}
-          alt={`Project ${title}`}
-          fill
-          className="object-cover object-center absolute"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        />
+      <div className="relative h-40 w-full overflow-hidden flex items-center justify-center">
+        {imageSrc && (
+          <Image
+            src={imageSrc}
+            alt={`Project ${title}`}
+            fill
+            className="object-cover object-center absolute"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            loading="eager"
+          />
+        )}
+        <p className="text-sm text-muted-foreground">Aucune image disponible</p>
       </div>
       <div className="flex flex-col justify-between flex-1 gap-4 p-2">
         <div className="flex flex-col gap-4 ">

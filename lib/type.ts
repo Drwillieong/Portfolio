@@ -9,7 +9,7 @@ export interface ProjectProps {
     documentationLink: string;
     websiteLink: string;
   };
-  image: string[];
+  image?: string[];
   status: "En cours" | "Terminé" | "À venir";
   favorite?: boolean;
 }
