@@ -5,6 +5,7 @@ import { Logo } from "../Icons/icon";
 import {
   Briefcase,
   Check,
+  GraduationCap,
   HomeIcon,
   LucideIcon,
   Share,
@@ -29,6 +30,7 @@ export default function NavBar() {
 
       <NavItem Icon={HomeIcon} link="/" label="Accueil" />
       <NavItem Icon={User} link="/about" label="À propos" />
+      <NavItem Icon={GraduationCap} link="/education" label="Éducation" />
       <NavItem Icon={Briefcase} link="/projects" label="Projets" />
 
       {/* Separator */}
