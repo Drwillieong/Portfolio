@@ -160,4 +160,18 @@ export const projects_e5: ProjectProps[] = [
     image: ["/images/projects/e5/hacking.png"],
     status: "Terminé",
   },
+  {
+    id: 12,
+    title: "Synchronisation GLPI/OCS",
+    desc: "Mise en place d'une solution de synchronisation entre GLPI et OCS Inventory pour une gestion centralisée du parc informatique.",
+    role: "Administrateur Système",
+    stack: ["GLPI", "OCS Inventory", "Synchronisation", "Asset Management"],
+    list: {
+      githubLink: "",
+      documentationLink: "/files/projects/e5/sync-glpi-ocs.pdf",
+      websiteLink: "",
+    },
+    image: ["/images/projects/e5/sync-glpi-ocs.png"],
+    status: "Terminé",
+  },
 ];
