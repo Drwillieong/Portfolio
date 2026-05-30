@@ -50,8 +50,8 @@ export const projects_perso: ProjectProps[] = [
     stack: ["Next.js", "Tailwind", "TypeScript", "TMDB API"],
     list: {
       githubLink: "https://github.com/FlytziTv/Absolute_Stream",
-      documentationLink: "",
-      websiteLink: "",
+      documentationLink: "/files/projects/e6/absolute-stream.pdf",
+      websiteLink: "https://absolute-stream.vercel.app/",
     },
     image: ["/images/projects/perso/absolute-stream.png"],
     status: "En cours",

@@ -33,6 +33,21 @@ export const projects_e6: ProjectProps[] = [
     },
     image: ["/images/projects/e6/StadiumCompany.png"],
     status: "À venir",
+    favorite: false,
+  },
+  {
+    id: 3,
+    title: "Absolute Stream",
+    desc: "Application web de reviews de films et séries. Permet de noter, commenter et consulter les critiques via l'API TMDB.",
+    role: "Développeur Full Stack",
+    stack: ["Next.js", "Tailwind", "TypeScript", "TMDB API"],
+    list: {
+      githubLink: "https://github.com/FlytziTv/Absolute_Stream",
+      documentationLink: "/files/projects/e6/absolute-stream.pdf",
+      websiteLink: "https://absolute-stream.vercel.app/",
+    },
+    image: ["/images/projects/perso/absolute-stream.png"],
+    status: "En cours",
     favorite: true,
   },
 ];
