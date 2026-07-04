@@ -16,3 +16,17 @@ export type TextLinkProps = {
   text: string;
   url: string;
 };
+
+export type XpMission = {
+  title: string;
+  bulletPoints: string[];
+};
+
+export type ArticleXpProps = {
+  company: string;
+  startDate: string;
+  endDate: string;
+  titleJob: string;
+  stack: string;
+  missions: XpMission[];
+};
