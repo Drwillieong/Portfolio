@@ -23,7 +23,7 @@ export const workData: ArticleXpProps[] = [
     startDate: "novembre 2023",
     endDate: "décembre 2023",
     titleJob: "Concepteur industriel",
-    stack: "SolidWorks",
+    stack: "SolidWorks, Excel, CAO, DAO",
     missions: [
       {
         title: "Conception d'un prototype de pince industrielle",
@@ -71,7 +71,7 @@ export const workData: ArticleXpProps[] = [
     startDate: "juin 2022",
     endDate: "juin 2022",
     titleJob: "Chargé d'études",
-    stack: "AutoCAD",
+    stack: "AutoCAD, SolidWorks, Excel, CAO, DAO",
     missions: [
       {
         title: "Mise à jour du plan du bâtiment",
