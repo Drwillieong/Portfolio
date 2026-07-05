@@ -1,6 +1,35 @@
-import { ArticleXpProps } from "@/types/types";
+"use client";
 
-export function XpComp({ children }: { children: React.ReactNode }) {
+import { ChevronDown } from "lucide-react";
+import { cn } from "@/lib/utils";
+import { useState } from "react";
+import TitleCategory from "@/components/layout/TitleCategory";
+import {
+  ArticleXpProps,
+  CompXpProps,
+  ShowMoreButtonProps,
+} from "@/types/types";
+
+export default function CompXp({ data, id, title }: CompXpProps) {
+  const [isOpen, setIsOpen] = useState(false);
+  const visibleData = isOpen ? data : data.slice(0, 3);
+
+  return (
+    <TitleCategory id={id} title={title}>
+      <XpComp>
+        {visibleData.map((item) => (
+          <ArticleXp key={`${item.company}-${item.startDate}`} {...item} />
+        ))}
+      </XpComp>
+
+      {data.length > 3 && (
+        <ShowMoreButton isOpen={isOpen} onClick={() => setIsOpen(!isOpen)} />
+      )}
+    </TitleCategory>
+  );
+}
+
+function XpComp({ children }: { children: React.ReactNode }) {
   return (
     <div className="relative flex flex-col gap-10">
       {/* Barre latéral */}
@@ -10,7 +39,7 @@ export function XpComp({ children }: { children: React.ReactNode }) {
   );
 }
 
-export function ArticleXp({
+function ArticleXp({
   company,
   startDate,
   endDate,
@@ -60,5 +89,27 @@ export function ArticleXp({
         ))}
       </div>
     </article>
+  );
+}
+
+function ShowMoreButton({
+  isOpen,
+  onClick,
+  labelMore = "Voir plus",
+  labelLess = "Voir moins",
+}: ShowMoreButtonProps) {
+  return (
+    <button
+      onClick={onClick}
+      className="flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
+    >
+      {isOpen ? labelLess : labelMore}
+      <ChevronDown
+        className={cn(
+          "size-4 transition-transform duration-200",
+          isOpen && "rotate-180",
+        )}
+      />
+    </button>
   );
 }

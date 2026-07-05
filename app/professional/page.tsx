@@ -1,13 +1,14 @@
 import About from "@/components/section/all/about";
-import WorkExperience from "@/components/section/all/experience";
 import Hero from "@/components/section/all/Hero";
+import CompXp from "@/components/xp";
+import { workData } from "@/data/work";
 
 export default function ProPage() {
   return (
     <main className="max-w-220 mx-auto py-12 sm:py-24 px-6 space-y-10">
       <Hero />
       <About />
-      <WorkExperience />
+      <CompXp data={workData} id="work" title="Expérience professionnelle" />
     </main>
   );
 }
