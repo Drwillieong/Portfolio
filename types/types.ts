@@ -30,3 +30,16 @@ export type ArticleXpProps = {
   stack: string;
   missions: XpMission[];
 };
+
+export type ShowMoreButtonProps = {
+  isOpen: boolean;
+  onClick: () => void;
+  labelMore?: string;
+  labelLess?: string;
+};
+
+export type CompXpProps = {
+  data: ArticleXpProps[];
+  id: string;
+  title: string;
+};
