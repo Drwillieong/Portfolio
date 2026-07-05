@@ -4,7 +4,10 @@ import { workData } from "@/data/work";
 
 export default function WorkExperience() {
   return (
-    <TitleCategory id="experience" title="Experience">
+    <TitleCategory
+      id="last-xp-pro"
+      title="Dernières expériences professionnelles"
+    >
       <XpComp>
         {workData.slice(0, 3).map((experience, index) => (
           <ArticleXp
