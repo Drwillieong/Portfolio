@@ -6,7 +6,7 @@ export default function WorkExperience() {
   return (
     <TitleCategory id="experience" title="Experience">
       <XpComp>
-        {workData.map((experience, index) => (
+        {workData.slice(0, 3).map((experience, index) => (
           <ArticleXp
             key={index}
             company={experience.company}
