@@ -42,7 +42,7 @@ export default function ProjectCardPro({
           <LinkCard
             url={url.docs}
             title="Voir la documentation"
-            icon={<FileText size={16} />}
+            icon={<FileText size={14} />}
           />
         )}
 
@@ -50,7 +50,7 @@ export default function ProjectCardPro({
           <LinkCard
             url={url.site}
             title="Visiter le site web"
-            icon={<ArrowUpRight size={16} />}
+            icon={<ArrowUpRight size={14} />}
           />
         )}
       </div>
