@@ -71,3 +71,11 @@ export interface ProjectProps {
   status: "En cours" | "Terminé" | "À venir";
   favorite?: boolean;
 }
+
+export interface StackProps {
+  id: number;
+  name: string;
+  image: string;
+  categorie: string;
+  link: string;
+}
