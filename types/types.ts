@@ -43,3 +43,31 @@ export type CompXpProps = {
   id: string;
   title: string;
 };
+
+export type urlProject = {
+  github?: string;
+  docs?: string;
+  site?: string;
+};
+
+export type ProjectCardProProps = {
+  title: string;
+  techStack: string[];
+  description?: string;
+  url: urlProject;
+};
+
+export interface ProjectProps {
+  title: string;
+  desc: string;
+  role: string;
+  stack: string[];
+  list: {
+    githubLink: string;
+    documentationLink: string;
+    websiteLink: string;
+  };
+  image?: string[];
+  status: "En cours" | "Terminé" | "À venir";
+  favorite?: boolean;
+}
