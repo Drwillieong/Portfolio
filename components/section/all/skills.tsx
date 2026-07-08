@@ -42,7 +42,7 @@ function SkillsCard({
   skills: string;
 }) {
   return (
-    <div className="inline-flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 gap-1.5 rounded-xl border border-border/70 hover:border-foreground/20 bg-background px-3 py-2 text-xs font-medium cursor-pointer">
+    <div className="inline-flex items-center text-muted-foreground hover:text-foreground transition-all duration-300 gap-1.5 rounded-lg border border-border/70 hover:border-foreground/20 bg-background px-3 py-1.5 text-xs font-medium cursor-pointer">
       <Image src={imageSrc} alt={skills} width={24} height={24} />
       <span>{skills}</span>
     </div>
