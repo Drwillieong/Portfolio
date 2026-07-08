@@ -6,7 +6,7 @@ export default function TitleCategory({
   children,
 }: TitleCategoryProps) {
   return (
-    <section className="flex flex-col gap-2" id={id}>
+    <section className="flex flex-col gap-4" id={id}>
       <h2 className="text-xs font-semibold text-muted-foreground">{title}</h2>
 
       {children}
