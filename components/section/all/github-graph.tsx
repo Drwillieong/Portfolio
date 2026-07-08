@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import { GitHubCalendar } from "react-github-calendar";
 import { useTheme } from "next-themes";
+import TitleCategory from "@/components/layout/TitleCategory";
 
 function GithubGraph() {
   const { resolvedTheme } = useTheme();
@@ -13,16 +14,18 @@ function GithubGraph() {
   };
 
   return (
-    <div className="w-full [&_svg]:w-full [&_svg]:h-auto" id="github">
-      <GitHubCalendar
-        username="FlytziTv"
-        colorScheme={resolvedTheme === "dark" ? "dark" : "light"}
-        theme={themeSZ}
-        blockSize={12}
-        blockMargin={3}
-        fontSize={12}
-      />
-    </div>
+    <TitleCategory id="github" title="Activité GitHub">
+      <div className="w-full [&_svg]:w-full [&_svg]:h-auto" id="github">
+        <GitHubCalendar
+          username="FlytziTv"
+          colorScheme={resolvedTheme === "dark" ? "dark" : "light"}
+          theme={themeSZ}
+          blockSize={12}
+          blockMargin={3}
+          fontSize={12}
+        />
+      </div>
+    </TitleCategory>
   );
 }
 
