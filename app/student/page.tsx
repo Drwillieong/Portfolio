@@ -3,6 +3,9 @@ import Hero from "@/components/section/all/Hero";
 import { workData } from "@/data/work";
 import CompXp from "@/components/xp";
 import { educationData } from "@/data/school";
+import Footer from "@/components/section/all/footer";
+import Skills from "@/components/section/all/skills";
+import ProjectStud from "@/components/section/student/ProjectStud";
 
 export default function StudPage() {
   return (
@@ -11,6 +14,9 @@ export default function StudPage() {
       <About />
       <CompXp data={workData} id="work" title="Expérience professionnelle" />
       <CompXp data={educationData} id="school" title="Formation" />
+      <ProjectStud />
+      <Skills />
+      <Footer />
     </main>
   );
 }
