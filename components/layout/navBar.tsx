@@ -4,7 +4,7 @@ import { Moon, Rss, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 
 import Link from "next/link";
-import { Logo } from "@/components/icons/icon";
+import { Logo } from "../icons/icon";
 import {
   Briefcase,
   Check,
@@ -93,7 +93,7 @@ function IconLink({
       className="aspect-square h-7 flex items-center justify-center hover:opacity-60 transition-opacity duration-300 cursor-pointer"
       title={label}
     >
-      <Icon size={16} color="hsl(var(--foreground))" />
+      <Icon size={16} />
     </Link>
   );
 }
