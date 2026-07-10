@@ -1,5 +1,5 @@
 import HeroCategoryProject from "@/components/section/projets/HeroProject";
-import CategoryProject from "@/components/section/projets/ProjetFav";
+import ProjetFav from "@/components/section/projets/ProjetFav";
 
 export default function Projects() {
   return (
@@ -8,7 +8,7 @@ export default function Projects() {
         title="Mes projets favoris"
         description="Découvrez une sélection de mes travaux les plus significatifs."
       />
-      <CategoryProject />
+      <ProjetFav />
     </main>
   );
 }

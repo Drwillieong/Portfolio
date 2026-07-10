@@ -7,7 +7,7 @@ import { projects_e6 } from "@/data/projects/e6";
 import { projects_perso } from "@/data/projects/perso";
 import ProjectCard from "@/components/card/CardProject";
 
-export default function CategoryProject() {
+export default function ProjetFav() {
   const categories = [
     {
       title: "Projets E5",
