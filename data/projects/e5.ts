@@ -11,7 +11,7 @@ export const projects_e5: ProjectProps[] = [
       documentationLink: "/files/projects/e5/apache.pdf",
       websiteLink: "",
     },
-    image: ["/images/projects/e5/apache.png"],
+    image: ["/projets/e5/images/apache.png"],
     status: "Terminé",
   },
 
@@ -25,7 +25,7 @@ export const projects_e5: ProjectProps[] = [
       documentationLink: "/files/projects/e5/ubuntu-vbox.pdf",
       websiteLink: "",
     },
-    image: ["/images/projects/e5/ubuntu-vbox.png"],
+    image: ["/projets/e5/images/ubuntu-vbox.png"],
     status: "Terminé",
   },
 
@@ -39,7 +39,7 @@ export const projects_e5: ProjectProps[] = [
       documentationLink: "/files/projects/e5/ubuntu-vmware.pdf",
       websiteLink: "",
     },
-    image: ["/images/projects/e5/ubuntu-vmware.png"],
+    image: ["/projets/e5/images/ubuntu-vmware.png"],
     status: "Terminé",
     favorite: true,
   },
@@ -55,7 +55,7 @@ export const projects_e5: ProjectProps[] = [
       websiteLink: "",
     },
 
-    image: ["/images/projects/e5/windows-server-2025.png"],
+    image: ["/projets/e5/images/windows-server-2025.png"],
     status: "Terminé",
   },
 
@@ -69,7 +69,7 @@ export const projects_e5: ProjectProps[] = [
       documentationLink: "/files/projects/e5/symfony.pdf",
       websiteLink: "",
     },
-    image: ["/images/projects/e5/symfony.png"],
+    image: ["/projets/e5/images/symfony.png"],
     status: "Terminé",
   },
 
@@ -83,7 +83,7 @@ export const projects_e5: ProjectProps[] = [
       documentationLink: "/files/projects/e5/symfony-details.pdf",
       websiteLink: "",
     },
-    image: ["/images/projects/e5/symfony-dev.png"],
+    image: ["/projets/e5/images/symfony-dev.png"],
     status: "Terminé",
   },
 
@@ -97,7 +97,7 @@ export const projects_e5: ProjectProps[] = [
       documentationLink: "/files/projects/e5/mobaxterm.pdf",
       websiteLink: "",
     },
-    image: ["/images/projects/e5/mobaxterm.png"],
+    image: ["/projets/e5/images/mobaxterm.png"],
     status: "Terminé",
     favorite: true,
   },
@@ -112,7 +112,7 @@ export const projects_e5: ProjectProps[] = [
       documentationLink: "/files/projects/e5/ocs-glpi.pdf",
       websiteLink: "",
     },
-    image: ["/images/projects/e5/ocs-inv.png"],
+    image: ["/projets/e5/images/ocs-inv.png"],
     status: "Terminé",
     favorite: true,
   },
@@ -127,7 +127,7 @@ export const projects_e5: ProjectProps[] = [
       documentationLink: "/files/projects/e5/kali-linux.pdf",
       websiteLink: "",
     },
-    image: ["/images/projects/e5/kali-linux.png"],
+    image: ["/projets/e5/images/kali-linux.png"],
     status: "Terminé",
     favorite: true,
   },
@@ -142,7 +142,7 @@ export const projects_e5: ProjectProps[] = [
       documentationLink: "/files/projects/e5/kali-dvwa.pdf ",
       websiteLink: "",
     },
-    image: ["/images/projects/e5/kali-dvwa.png"],
+    image: ["/projets/e5/images/kali-dvwa.png"],
     status: "Terminé",
   },
 
@@ -156,7 +156,7 @@ export const projects_e5: ProjectProps[] = [
       documentationLink: "/files/projects/e5/force-brute.pdf",
       websiteLink: "",
     },
-    image: ["/images/projects/e5/hacking.png"],
+    image: ["/projets/e5/images/hacking.png"],
     status: "Terminé",
   },
 
@@ -170,7 +170,7 @@ export const projects_e5: ProjectProps[] = [
       documentationLink: "/files/projects/e5/sync-glpi-ocs.pdf",
       websiteLink: "",
     },
-    image: ["/images/projects/e5/sync-glpi-ocs.png"],
+    image: ["/projets/e5/images/sync-glpi-ocs.png"],
     status: "Terminé",
   },
 ];
