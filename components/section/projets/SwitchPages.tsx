@@ -9,17 +9,17 @@ export default function SwitchPages() {
 
   // Configuration de navigation
   const navigation = {
-    "/projects/perso": {
-      prev: { title: "Épreuve E6", href: "/projects/e6" },
-      next: { title: "Épreuve E5", href: "/projects/e5" },
+    "/student/projects/perso": {
+      prev: { title: "Épreuve E6", href: "/student/projects/e6" },
+      next: { title: "Épreuve E5", href: "/student/projects/e5" },
     },
-    "/projects/e5": {
-      prev: { title: "Projets Perso", href: "/projects/perso" },
-      next: { title: "Épreuve E6", href: "/projects/e6" },
+    "/student/projects/e5": {
+      prev: { title: "Projets Perso", href: "/student/projects/perso" },
+      next: { title: "Épreuve E6", href: "/student/projects/e6" },
     },
-    "/projects/e6": {
-      prev: { title: "Épreuve E5", href: "/projects/e5" },
-      next: { title: "Projets Perso", href: "/projects/perso" },
+    "/student/projects/e6": {
+      prev: { title: "Épreuve E5", href: "/student/projects/e5" },
+      next: { title: "Projets Perso", href: "/student/projects/perso" },
     },
   };
 
@@ -27,7 +27,7 @@ export default function SwitchPages() {
   // On ajoute une sécurité (fallback) au cas où le pathname ne match pas parfaitement
   const currentPage =
     navigation[pathname as keyof typeof navigation] ||
-    navigation["/projects/e5"];
+    navigation["/student/projects/e5"];
 
   return (
     <div className="top-2 absolute right-0 left-0 max-w-212 mx-auto px-6 flex flex-row items-center justify-between">

@@ -11,17 +11,17 @@ export default function ProjetFav() {
   const categories = [
     {
       title: "Projets E5",
-      link: "/projects/e5",
+      link: "/student/projects/e5",
       data: projects_e5.filter((project) => project.favorite),
     },
     {
       title: "Projets E6",
-      link: "/projects/e6",
+      link: "/student/projects/e6",
       data: projects_e6.filter((project) => project.favorite),
     },
     {
       title: "Projets personnels",
-      link: "/projects/perso",
+      link: "/student/projects/perso",
       data: projects_perso.filter((project) => project.favorite),
     },
   ];
