@@ -76,7 +76,7 @@ export default function ProjectCard({
               href={githubLink}
               className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground shadow hover:bg-primary/80 flex gap-2 px-2 py-1 text-[11px]"
             >
-              <Github size={14} color="hsl(var(--primary-foreground))" />
+              <Github size={14} />
               Github
             </Link>
           )}
@@ -85,7 +85,7 @@ export default function ProjectCard({
               href={documentationLink}
               className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground shadow hover:bg-primary/80 flex gap-2 px-2 py-1 text-[11px]"
             >
-              <FileText size={14} color="hsl(var(--primary-foreground))" />
+              <FileText size={14} />
               Documentation
             </Link>
           )}
@@ -94,7 +94,7 @@ export default function ProjectCard({
               href={websiteLink}
               className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground shadow hover:bg-primary/80 flex gap-2 px-2 py-1 text-[11px]"
             >
-              <Globe size={14} color="hsl(var(--primary-foreground))" />
+              <Globe size={14} />
               Site Web
             </Link>
           )}
