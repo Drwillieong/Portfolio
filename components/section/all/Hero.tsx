@@ -45,8 +45,8 @@ function Hero() {
               {new Date().toLocaleTimeString([], {
                 hour: "2-digit",
                 minute: "2-digit",
-              })}{" "}
-              (GMT+8)
+              })}
+            
             </span>
           </div>
         </div>
