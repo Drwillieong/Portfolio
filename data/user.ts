@@ -19,7 +19,10 @@ export const socials: UserSocial[] = [
     url: "mailto:kevincorpuz321@gmail.com",
     icon: Gmail,
   },
+  
 ];
+
+export const resumeUrl = "/files/KevinCorpuzBolado.pdf";
 
 export const certificationData: ArticleXpProps[] = [
   {

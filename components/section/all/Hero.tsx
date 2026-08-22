@@ -1,8 +1,8 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { socials } from "@/data/user";
-import { MapPin } from "lucide-react";
+import { socials, resumeUrl } from "@/data/user";
+import { MapPin, FileText } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { UserSocial } from "@/types/types";
@@ -52,6 +52,9 @@ function Hero() {
         </div>
       </div>
 
+      {/* Resume */}
+      
+
       {/* List Social */}
       <div className="flex items-center gap-2.5">
         {socials.map((social: UserSocial) => {
@@ -78,7 +81,21 @@ function Hero() {
             </Button>
           );
         })}
+        <div>
+        <Button asChild>
+          <Link
+            href={resumeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Resume"
+          >
+            <FileText size={16} />
+            Resume
+          </Link>
+        </Button>
       </div>
+      </div>
+      
     </section>
   );
 }

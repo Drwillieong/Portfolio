@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Kevin Corpuz Bolado: Student and Fullstack Developer.",
   icons: {
-    icon: "/images/sz-icons/icon.svg",
-    apple: "/images/sz-icons/icon.svg",
+    icon: "/projets/perso/images/pogi.jpg",
+    apple: "/projets/perso/images/pogi.jpg",
   },
 };
 

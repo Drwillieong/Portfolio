@@ -40,7 +40,7 @@ export default function NavBar() {
   return (
     <nav className="p-2 bg-card border border-border rounded-full flex flex-row items-center justify-center gap-2 w-fit z-900 fixed left-1/2 -translate-x-1/2 bottom-2">
       {/* Logo */}
-      <IconLink link="/" Icon={Logo} label="Home" />
+     
 
       {/* Separator (Displayed only if we are in one of the categories) */}
       {(isProfessional || isStudent) && (
