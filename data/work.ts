@@ -3,97 +3,97 @@ import { ArticleXpProps } from "@/types/types";
 export const workData: ArticleXpProps[] = [
   {
     company: "6Team",
-    startDate: "juillet 2026",
-    endDate: "août 2026",
+    startDate: "July 2026",
+    endDate: "August 2026",
     titleJob: "Developer",
     stack: "Angular, Node.js, PostgreSQL",
     missions: [
       {
-        title: "Développement application web",
+        title: "Web application development",
         bulletPoints: [
-          "Développement et conception d'une application web complète sous Angular, Node.js et PostgreSQL.",
-          "Sécurisation des échanges via API REST et intégration de divers services externes.",
-          "Mise en place d'une expérience immersive par la manipulation d'objets 3D interactifs et l'intégration d'environnements de visite virtuelle (ex : Matterport).",
+          "Development and design of a complete web application using Angular, Node.js and PostgreSQL.",
+          "Securing exchanges via REST API and integration of various external services.",
+          "Setting up an immersive experience through interactive 3D objects and the integration of virtual tour environments (e.g. Matterport).",
         ],
       },
     ],
   },
   {
     company: "New Mat Mécatronics",
-    startDate: "novembre 2023",
-    endDate: "décembre 2023",
-    titleJob: "Concepteur industriel",
+    startDate: "November 2023",
+    endDate: "December 2023",
+    titleJob: "Industrial Designer",
     stack: "SolidWorks, Excel, CAO, DAO",
     missions: [
       {
-        title: "Conception d'un prototype de pince industrielle",
+        title: "Design of an industrial gripper prototype",
         bulletPoints: [
-          "Étude de marché et veille concurrentielle.",
-          "Conception sur SolidWorks d'un prototype de pince industrielle, optimisé pour la nouvelle génération de robots de préhension.",
+          "Market research and competitive monitoring.",
+          "Design on SolidWorks of an industrial gripper prototype, optimized for the new generation of grasping robots.",
         ],
       },
     ],
   },
   {
     company: "Eiffage",
-    startDate: "juin 2023",
-    endDate: "juin 2023",
-    titleJob: "Chargé d'études",
+    startDate: "June 2023",
+    endDate: "June 2023",
+    titleJob: "Study Manager",
     stack: "AutoCAD, SolidWorks",
     missions: [
       {
-        title: "Système d'extraction d'air — atelier maintenance Renault",
+        title: "Air extraction system — Renault maintenance workshop",
         bulletPoints: [
-          "Plan AutoCAD pour le système d'extraction d'air de l'atelier de maintenance des camions Renault.",
-          "Modélisation 3D du plan final sur SolidWorks.",
+          "AutoCAD plan for the air extraction system of the Renault truck maintenance workshop.",
+          "3D modeling of the final plan in SolidWorks.",
         ],
       },
     ],
   },
   {
     company: "Eiffage",
-    startDate: "mars 2023",
-    endDate: "mars 2023",
-    titleJob: "Chargé d'études",
+    startDate: "March 2023",
+    endDate: "March 2023",
+    titleJob: "Study Manager",
     stack: "AutoCAD, SolidWorks",
     missions: [
       {
-        title: "Système d'extraction d'air — restaurant parisien",
+        title: "Air extraction system — Parisian restaurant",
         bulletPoints: [
-          "Participation à la conception d'un système d'extraction d'air pour un restaurant parisien.",
-          "Conception du plan sur AutoCAD et modélisation en 3D sur SolidWorks.",
+          "Participation in the design of an air extraction system for a Parisian restaurant.",
+          "Design of the plan in AutoCAD and 3D modeling in SolidWorks.",
         ],
       },
     ],
   },
   {
     company: "Eiffage",
-    startDate: "juin 2022",
-    endDate: "juin 2022",
-    titleJob: "Chargé d'études",
+    startDate: "June 2022",
+    endDate: "June 2022",
+    titleJob: "Study Manager",
     stack: "AutoCAD, SolidWorks, Excel, CAO, DAO",
     missions: [
       {
-        title: "Mise à jour du plan du bâtiment",
+        title: "Building plan update",
         bulletPoints: [
-          "Mesure et mise à jour du plan du bâtiment d'Eiffage pour intégrer des modifications.",
-          "Adaptation des plans en fonction des modifications demandées par Renault.",
+          "Measurement and update of the Eiffage building plan to integrate modifications.",
+          "Adaptation of plans according to modifications requested by Renault.",
         ],
       },
     ],
   },
   {
     company: "Eiffage",
-    startDate: "mars 2022",
-    endDate: "mars 2022",
-    titleJob: "Chargé d'études",
+    startDate: "March 2022",
+    endDate: "March 2022",
+    titleJob: "Study Manager",
     stack: "AutoCAD, SolidWorks",
     missions: [
       {
-        title: "Modélisation d'un système de ventilation",
+        title: "Modeling of a ventilation system",
         bulletPoints: [
-          "Modélisation en 3D sur SolidWorks d'un plan de système de ventilation fourni sur AutoCAD.",
-          "Conception de pièces techniques en appui aux projets de l'équipe.",
+          "3D modeling in SolidWorks of a ventilation system plan provided in AutoCAD.",
+          "Design of technical parts supporting the team's projects.",
         ],
       },
     ],

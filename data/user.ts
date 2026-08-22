@@ -23,18 +23,18 @@ export const socials: UserSocial[] = [
 
 export const certificationData: ArticleXpProps[] = [
   {
-    company: "HTML, Sémantique",
+    company: "HTML, Semantics",
     startDate: "2025",
     endDate: "2025",
     titleJob: "Certification HTML",
     stack: "Codédex",
     missions: [
       {
-        title: "Compétences validées",
+        title: "Validated skills",
         bulletPoints: [
-          "Maîtrise de la structure sémantique",
-          "Création de pages web accessibles",
-          "Formulaires complets et bonnes pratiques de balisage",
+          "Mastery of semantic structure",
+          "Creation of accessible web pages",
+          "Complete forms and markup best practices",
         ],
       },
     ],
@@ -47,11 +47,11 @@ export const certificationData: ArticleXpProps[] = [
     stack: "CSS, Flexbox, Grid",
     missions: [
       {
-        title: "Compétences validées",
+        title: "Validated skills",
         bulletPoints: [
-          "Compétences en mise en forme et layout responsif",
-          "Gestion avancée des flexbox/grid",
-          "Application des bonnes pratiques de design",
+          "Skills in styling and responsive layout",
+          "Advanced flexbox/grid management",
+          "Application of design best practices",
         ],
       },
     ],
@@ -61,14 +61,14 @@ export const certificationData: ArticleXpProps[] = [
     startDate: "2024",
     endDate: "2024",
     titleJob: "Pix",
-    stack: "Numérique, Sécurité",
+    stack: "Digital, Security",
     missions: [
       {
-        title: "Compétences validées",
+        title: "Validated skills",
         bulletPoints: [
-          "Validation des compétences numériques clés",
-          "Sécurité informatique et gestion de l’information",
-          "Résolution de problèmes et maîtrise des outils digitaux",
+          "Validation of key digital skills",
+          "Computer security and information management",
+          "Problem solving and mastery of digital tools",
         ],
       },
     ],
@@ -78,14 +78,14 @@ export const certificationData: ArticleXpProps[] = [
     startDate: "2026",
     endDate: "2026",
     titleJob: "ANSSI",
-    stack: "Cybersécurité, ANSSI",
+    stack: "Cybersecurity, ANSSI",
     missions: [
       {
-        title: "Compétences validées",
+        title: "Validated skills",
         bulletPoints: [
-          "Connaissances en sécurité informatique et gestion des risques",
-          "Protection des données",
-          "Bonnes pratiques pour sécuriser les systèmes d'information",
+          "Knowledge of computer security and risk management",
+          "Data protection",
+          "Best practices for securing information systems",
         ],
       },
     ],
@@ -98,11 +98,11 @@ export const certificationData: ArticleXpProps[] = [
     stack: "HTML5, CSS3, Flexbox, Grid",
     missions: [
       {
-        title: "Compétences validées",
+        title: "Validated skills",
         bulletPoints: [
-          "Compétences en design adaptatif",
-          "Utilisation de media queries, flexbox et grid",
-          "Optimisation des interfaces web pour tous les appareils",
+          "Skills in adaptive design",
+          "Use of media queries, flexbox and grid",
+          "Optimization of web interfaces for all devices",
         ],
       },
     ],

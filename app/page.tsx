@@ -10,28 +10,27 @@ export default function Home() {
         id="menustart"
       >
         <h1 className="text-5xl font-bold tracking-tight">
-          Bienvenue sur mon portfolio
+          Welcome to my portfolio
         </h1>
         <p className="max-w-xl text-balance text-muted-foreground sm:text-md">
-          Il existe deux versions de ce portfolio : une version{" "}
-          <span className="font-medium text-foreground">professionnelle</span>,
-          axée sur mes compétences et mes projets, et une version{" "}
-          <span className="font-medium text-foreground">étudiante</span>, qui
-          détaille mes études, mon école, mon entreprise et mes projets de
-          cours.
+          This portfolio exists in two versions: a{" "}
+          <span className="font-medium text-foreground">professional</span>{" "}
+          version, focused on my skills and projects, and a{" "}
+          <span className="font-medium text-foreground">student</span> version,
+          which details my studies, school, company and course projects.
         </p>
 
         <div className="flex flex-row gap-3">
           <Link href="/student">
             <Button size="lg" className="gap-2 rounded-md">
               <GraduationCap className="size-4" />
-              Étudiants
+              Students
             </Button>
           </Link>
           <Link href="/professional">
             <Button variant="outline" size="lg" className="gap-2 rounded-md">
               <Briefcase className="size-4" />
-              Professionnels
+              Professionals
             </Button>
           </Link>
         </div>

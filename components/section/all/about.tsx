@@ -10,10 +10,10 @@ export default function About() {
   const isProfessional = pathname.startsWith("/professional");
 
   return (
-    <TitleCategory id="about" title="A Propos">
-      {/* fonction qui change de text en de la catégorie selectionner au debut */}
-      {/* si le lien est /professional mettre le TextAboutPro */}
-      {/* si le lien est /student mettre le TextAboutStud */}
+    <TitleCategory id="about" title="About">
+      {/* function that changes the text based on the selected category at the start */}
+      {/* if the link is /professional use TextAboutPro */}
+      {/* if the link is /student use TextAboutStud */}
       {isProfessional ? <TextAboutPro /> : <TextAboutStud />}
     </TitleCategory>
   );

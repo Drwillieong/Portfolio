@@ -10,7 +10,7 @@ export default function Projects() {
 
       <HeroCategoryProject
         title="Projets E6"
-        description="Découvrez mes projets réalisés dans le cadre de ma formation E6, mettant en avant mes compétences."
+        description="Discover my projects completed as part of my E6 training, showcasing my skills."
       />
       <GridProject projects={projects_e6} />
     </main>

@@ -19,35 +19,35 @@ import { useState } from "react";
 const InfosNav = {
   NoCategory: [],
   Professional: [
-    { title: "Accueil", link: "/professional/", icon: HomeIcon },
-    { title: "Projets", link: "/professional/projects", icon: Briefcase },
+    { title: "Home", link: "/professional/", icon: HomeIcon },
+    { title: "Projects", link: "/professional/projects", icon: Briefcase },
     { title: "Blogs", link: "/professional/blogs", icon: Rss },
   ],
   Student: [
-    { title: "Accueil", link: "/student/", icon: HomeIcon },
-    { title: "Éducation", link: "/student/education", icon: GraduationCap },
-    { title: "Projets", link: "/student/projects", icon: Briefcase },
+    { title: "Home", link: "/student/", icon: HomeIcon },
+    { title: "Education", link: "/student/education", icon: GraduationCap },
+    { title: "Projects", link: "/student/projects", icon: Briefcase },
   ],
 };
 
 export default function NavBar() {
   const pathname = usePathname();
 
-  // On détermine la catégorie actuelle selon l'URL
+  // We determine the current category based on the URL
   const isProfessional = pathname.startsWith("/professional");
   const isStudent = pathname.startsWith("/student");
 
   return (
     <nav className="p-2 bg-card border border-border rounded-full flex flex-row items-center justify-center gap-2 w-fit z-900 fixed left-1/2 -translate-x-1/2 bottom-2">
       {/* Logo */}
-      <IconLink link="/" Icon={Logo} label="Accueil" />
+      <IconLink link="/" Icon={Logo} label="Home" />
 
-      {/* Separator (Affiché uniquement si on est dans une des catégories) */}
+      {/* Separator (Displayed only if we are in one of the categories) */}
       {(isProfessional || isStudent) && (
         <div className="w-px h-5 bg-border rounded-2xl" />
       )}
 
-      {/* Si on est dans la catégorie /professional */}
+      {/* If we are in the /professional category */}
       {isProfessional &&
         InfosNav.Professional.map((item, index) => (
           <NavItem
@@ -58,7 +58,7 @@ export default function NavBar() {
           />
         ))}
 
-      {/* Si on est dans la catégorie /student */}
+      {/* If we are in the /student category */}
       {isStudent &&
         InfosNav.Student.map((item, index) => (
           <NavItem
@@ -145,7 +145,7 @@ function NavItem({
   );
 }
 
-// au click ca copie le lien de la page dans le presse-papier et on change dicon temporairement pour indiquer que le lien a été copié, puis on revient à l'icon de partage après 1.5s
+// on click it copies the page link to the clipboard and temporarily changes the icon to indicate the link has been copied, then returns to the share icon after 1.5s
 export function NavShare() {
   const pathname = usePathname();
   const [isCopied, setIsCopied] = useState(false);
@@ -161,7 +161,7 @@ export function NavShare() {
         setIsCopied(false);
       }, 1500);
     } catch (err) {
-      console.error("Erreur lors de la copie du lien : ", err);
+      console.error("Error while copying the link: ", err);
     }
   };
 

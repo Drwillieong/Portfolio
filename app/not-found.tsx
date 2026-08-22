@@ -7,14 +7,14 @@ export default function NotFound() {
       <div className="flex flex-col gap-4 items-center justify-center grow text-center">
         <h1 className="text-9xl font-bold tracking-tight">404</h1>
         <p className="text-muted-foreground text-sm">
-          La page que vous recherchez n&apos;existe pas.
+          The page you are looking for does not exist.
         </p>
         <Link href="/">
           <Button
             size="lg"
             className="bg-foreground text-background hover:bg-foreground/85 px-4 cursor-pointer"
           >
-            Retour à l&apos;accueil
+            Back to Home
           </Button>
         </Link>
       </div>

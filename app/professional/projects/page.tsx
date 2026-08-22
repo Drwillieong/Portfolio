@@ -6,8 +6,8 @@ export default function Projects() {
   return (
     <main className="max-w-220 mx-auto py-12 sm:py-24 px-6 space-y-10">
       <HeroCategoryProject
-        title="Projets personnels"
-        description="Découvrez mes projets personnels, réalisés en dehors de mes formations."
+        title="Personal Projects"
+        description="Discover my personal projects, completed outside of my training."
       />
       <GridProject projects={projects_perso} />
     </main>

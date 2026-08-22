@@ -12,7 +12,7 @@ export default function ProPage() {
     <main className="max-w-220 mx-auto py-12 sm:py-24 px-6 space-y-12">
       <Hero />
       <About />
-      <CompXp data={workData} id="work" title="Expérience professionnelle" />
+      <CompXp data={workData} id="work" title="Professional Experience" />
       <ProjectPro />
       <GithubGraph />
       <Skills />

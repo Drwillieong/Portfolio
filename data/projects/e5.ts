@@ -3,8 +3,8 @@ import { ProjectProps } from "@/types/types";
 export const projects_e5: ProjectProps[] = [
   {
     title: "Apache",
-    desc: "Installation et configuration de Apache2 sur une machine virtuelle Ubuntu pour l'hébergement web.",
-    role: "Développeur et Administrateur Système",
+    desc: "Installation and configuration of Apache2 on an Ubuntu virtual machine for web hosting.",
+    role: "Developer and System Administrator",
     stack: ["Apache", "Ubuntu", "Linux", "Serveur Web"],
     list: {
       githubLink: "",
@@ -12,13 +12,13 @@ export const projects_e5: ProjectProps[] = [
       websiteLink: "",
     },
     image: ["/projets/e5/images/apache.png"],
-    status: "Terminé",
+    status: "Completed",
   },
 
   {
     title: "Ubuntu VirtualBox",
-    desc: "Déploiement et configuration d'un environnement Linux Ubuntu via l'hyperviseur VirtualBox.",
-    role: "Administrateur Système",
+    desc: "Deployment and configuration of a Linux Ubuntu environment via the VirtualBox hypervisor.",
+    role: "System Administrator",
     stack: ["Ubuntu", "Linux", "VirtualBox", "Virtualisation"],
     list: {
       githubLink: "",
@@ -26,29 +26,29 @@ export const projects_e5: ProjectProps[] = [
       websiteLink: "",
     },
     image: ["/projets/e5/images/ubuntu-vbox.png"],
-    status: "Terminé",
+    status: "Completed",
   },
 
   {
     title: "Ubuntu VMware",
-    desc: "Installation et optimisation de Ubuntu sur VMware, incluant la gestion des outils de compatibilité.",
-    role: "Administrateur Système",
-    stack: ["Réseau", "Ubuntu", "Linux", "VMware"],
+    desc: "Installation and optimization of Ubuntu on VMware, including compatibility tools management.",
+    role: "System Administrator",
+    stack: ["Network", "Ubuntu", "Linux", "VMware"],
     list: {
       githubLink: "",
       documentationLink: "/files/projects/e5/ubuntu-vmware.pdf",
       websiteLink: "",
     },
     image: ["/projets/e5/images/ubuntu-vmware.png"],
-    status: "Terminé",
+    status: "Completed",
     favorite: true,
   },
 
   {
     title: "Windows Server 2025",
-    desc: "Installation et configuration de Windows Server 2025. Mise en place des services de base et administration système.",
-    role: "Administrateur Système",
-    stack: ["Réseau", "Windows Server", "VMware", "Administration"],
+    desc: "Installation and configuration of Windows Server 2025. Setup of basic services and system administration.",
+    role: "System Administrator",
+    stack: ["Network", "Windows Server", "VMware", "Administration"],
     list: {
       githubLink: "",
       documentationLink: "/files/projects/e5/windows-server.pdf",
@@ -56,13 +56,13 @@ export const projects_e5: ProjectProps[] = [
     },
 
     image: ["/projets/e5/images/windows-server-2025.png"],
-    status: "Terminé",
+    status: "Completed",
   },
 
   {
     title: "Symfony 7 - Installation",
-    desc: "Mise en place de l'environnement de développement pour Symfony 7, gestion des dépendances et structure de base.",
-    role: "Développeur Backend",
+    desc: "Setup of the development environment for Symfony 7, dependency management and base structure.",
+    role: "Backend Developer",
     stack: ["Symfony", "PHP", "Composer", "Framework"],
     list: {
       githubLink: "",
@@ -70,13 +70,13 @@ export const projects_e5: ProjectProps[] = [
       websiteLink: "",
     },
     image: ["/projets/e5/images/symfony.png"],
-    status: "Terminé",
+    status: "Completed",
   },
 
   {
     title: "Symfony - ORM, Routing & Twig",
-    desc: "Approfondissement de Symfony : gestion de la base de données avec Doctrine (ORM), système de routage et moteur de template Twig.",
-    role: "Développeur Backend",
+    desc: "Deepening of Symfony: database management with Doctrine (ORM), routing system and Twig template engine.",
+    role: "Backend Developer",
     stack: ["Symfony", "PHP", "Doctrine", "Twig", "Backend"],
     list: {
       githubLink: "",
@@ -84,93 +84,93 @@ export const projects_e5: ProjectProps[] = [
       websiteLink: "",
     },
     image: ["/projets/e5/images/symfony-dev.png"],
-    status: "Terminé",
+    status: "Completed",
   },
 
   {
     title: "Connexion SSH - MobaXterm",
-    desc: "Configuration de MobaXterm pour la gestion à distance sécurisée de serveurs Linux via le protocole SSH.",
-    role: "Administrateur Système",
-    stack: ["MobaXterm", "SSH", "Réseau", "Linux", "Sécurité"],
+    desc: "Configuration of MobaXterm for secure remote management of Linux servers via the SSH protocol.",
+    role: "System Administrator",
+    stack: ["MobaXterm", "SSH", "Network", "Linux", "Security"],
     list: {
       githubLink: "",
       documentationLink: "/files/projects/e5/mobaxterm.pdf",
       websiteLink: "",
     },
     image: ["/projets/e5/images/mobaxterm.png"],
-    status: "Terminé",
+    status: "Completed",
     favorite: true,
   },
 
   {
     title: "OCS Inventory & GLPI",
-    desc: "Mise en place d'une solution de gestion de parc informatique associant l'inventaire automatique (OCS) et le helpdesk (GLPI).",
-    role: "Administrateur Système",
-    stack: ["OCS Inventory", "GLPI", "Asset Management", "Réseau", "Linux"],
+    desc: "Implementation of an IT asset management solution combining automatic inventory (OCS) and helpdesk (GLPI).",
+    role: "System Administrator",
+    stack: ["OCS Inventory", "GLPI", "Asset Management", "Network", "Linux"],
     list: {
       githubLink: "",
       documentationLink: "/files/projects/e5/ocs-glpi.pdf",
       websiteLink: "",
     },
     image: ["/projets/e5/images/ocs-inv.png"],
-    status: "Terminé",
+    status: "Completed",
     favorite: true,
   },
 
   {
     title: "Kali Linux Installation",
-    desc: "Installation de Kali Linux sur vmware",
-    role: "Administrateur Système",
-    stack: ["Kali Linux", "Cybersécurité", "VMware", "Pentest"],
+    desc: "Installation of Kali Linux on VMware",
+    role: "System Administrator",
+    stack: ["Kali Linux", "Cybersecurity", "VMware", "Pentest"],
     list: {
       githubLink: "",
       documentationLink: "/files/projects/e5/kali-linux.pdf",
       websiteLink: "",
     },
     image: ["/projets/e5/images/kali-linux.png"],
-    status: "Terminé",
+    status: "Completed",
     favorite: true,
   },
 
   {
     title: "DVWA Kali Linux ",
-    desc: "Installation de DVWA sur une machine virtuelle Kali Linux pour des tests d'intrusion éthiques et l'apprentissage des vulnérabilités web.",
-    role: "Administrateur Système",
-    stack: ["Kali Linux", "Cybersécurité", "VMware", "Pentest"],
+    desc: "Installation of DVWA on a Kali Linux virtual machine for ethical penetration testing and learning web vulnerabilities.",
+    role: "System Administrator",
+    stack: ["Kali Linux", "Cybersecurity", "VMware", "Pentest"],
     list: {
       githubLink: "",
       documentationLink: "/files/projects/e5/kali-dvwa.pdf ",
       websiteLink: "",
     },
     image: ["/projets/e5/images/kali-dvwa.png"],
-    status: "Terminé",
+    status: "Completed",
   },
 
   {
     title: "Attaque par Force Brute",
-    desc: "Simulation d'attaque par force brute sur la plateforme DVWA pour comprendre et prévenir les vulnérabilités d'authentification.",
-    role: "Administrateur Système",
-    stack: ["Cybersécurité", "Force Brute", "Burp Suite", "Kali Linux"],
+    desc: "Brute force attack simulation on the DVWA platform to understand and prevent authentication vulnerabilities.",
+    role: "System Administrator",
+    stack: ["Cybersecurity", "Force Brute", "Burp Suite", "Kali Linux"],
     list: {
       githubLink: "",
       documentationLink: "/files/projects/e5/force-brute.pdf",
       websiteLink: "",
     },
     image: ["/projets/e5/images/hacking.png"],
-    status: "Terminé",
+    status: "Completed",
   },
 
   {
     title: "Synchronisation GLPI/OCS",
-    desc: "Mise en place d'une solution de synchronisation entre GLPI et OCS Inventory pour une gestion centralisée du parc informatique.",
-    role: "Administrateur Système",
-    stack: ["GLPI", "OCS Inventory", "Synchronisation", "Asset Management"],
+    desc: "Implementation of a synchronization solution between GLPI and OCS Inventory for centralized IT asset management.",
+    role: "System Administrator",
+    stack: ["GLPI", "OCS Inventory", "Synchronization", "Asset Management"],
     list: {
       githubLink: "",
       documentationLink: "/files/projects/e5/sync-glpi-ocs.pdf",
       websiteLink: "",
     },
     image: ["/projets/e5/images/sync-glpi-ocs.png"],
-    status: "Terminé",
+    status: "Completed",
   },
 ];

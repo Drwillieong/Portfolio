@@ -14,7 +14,7 @@ function GithubGraph() {
   };
 
   return (
-    <TitleCategory id="github" title="Activité GitHub">
+    <TitleCategory id="github" title="GitHub Activity">
       <div className="w-full [&_svg]:w-full [&_svg]:h-auto" id="github">
         <GitHubCalendar
           username="FlytziTv"

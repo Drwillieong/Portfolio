@@ -3,32 +3,32 @@ import type { ArticleXpProps } from "@/types/types";
 export const educationData: ArticleXpProps[] = [
   {
     company: "Ynov Campus Paris",
-    startDate: "septembre 2025",
-    endDate: "juillet 2027",
+    startDate: "September 2025",
+    endDate: "July 2027",
     titleJob: "BTS SIO option SLAM",
     stack: "HTML, CSS, JavaScript, Php, Java",
     missions: [
       {
-        title: "Développeur d'applications",
+        title: "Application Developer",
         bulletPoints: [
-          "Formation orientée développement Full-Stack : conception, développement et maintenance d'applications web et logicielles.",
-          "Projets pratiques en équipe et en autonomie sur des stacks modernes.",
+          "Training focused on Full-Stack development: design, development and maintenance of web and software applications.",
+          "Practical projects in teams and independently on modern stacks.",
         ],
       },
     ],
   },
   {
     company: "Lycée Simone Weil",
-    startDate: "septembre 2021",
-    endDate: "juillet 2024",
+    startDate: "September 2021",
+    endDate: "July 2024",
     titleJob: "BAC Pro EDPI",
     stack: "SolidWorks, AutoCAD, CAO, DAO",
     missions: [
       {
-        title: "Étude et Définition de Produits Industriels",
+        title: "Study and Definition of Industrial Products",
         bulletPoints: [
-          "Conception et modélisation de systèmes mécaniques via des outils de CAO.",
-          "Formation aux méthodes d'étude et de définition de produits en contexte industriel.",
+          "Design and modeling of mechanical systems using CAD tools.",
+          "Training in product study and definition methods in an industrial context.",
         ],
       },
     ],

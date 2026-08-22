@@ -9,18 +9,18 @@ export default function ProjectStud() {
         <CardProjectStud
           url="/student/project/e5"
           title="Projet E5"
-          description="Projet réalisé en formation"
+          description="Project completed during training"
         />
         <CardProjectStud
           url="/student/project/e6"
           title="Projet E6"
-          description="Projet réalisé en formation"
+          description="Project completed during training"
         />
         <CardProjectStud
           url="/student/project/e5"
           colspan={2}
           title="Projet Personnel"
-          description="Projet réalisé en dehors de la formation"
+          description="Project completed outside of training"
         />
       </div>
     </TitleCategory>

@@ -92,38 +92,38 @@ export const Frameworks: StackProps[] = [
     categorie: "Backend",
     link: "https://symfony.com",
   },
-  // Base de données
+  // Databases
   {
     id: 7,
     name: "MySQL",
     image: "/images/skills/mysql.svg",
-    categorie: "Base de données",
+    categorie: "Databases",
     link: "https://www.mysql.com",
   },
-  // Serveur & Système
+  // Server & System
   {
     id: 8,
     name: "Apache",
     image: "/images/skills/apache.svg",
-    categorie: "Serveur & Système",
+    categorie: "Server & System",
     link: "https://www.apache.org",
   },
   {
     id: 9,
-    name: "Débian",
+    name: "Debian",
     image: "/images/skills/debian.svg",
-    categorie: "Serveur & Système",
+    categorie: "Server & System",
     link: "https://www.debian.org",
   },
 ];
 
 export const Logiciels: StackProps[] = [
-  // Développement & DevOps
+  // Development & DevOps
   {
     id: 1,
     name: "Visual Studio Code",
     image: "/images/logiciel/vscode.svg",
-    categorie: "Développement",
+    categorie: "Development",
     link: "https://code.visualstudio.com/",
   },
   {
@@ -148,12 +148,12 @@ export const Logiciels: StackProps[] = [
     categorie: "Design (UI/UX)",
     link: "https://www.figma.com/fr-fr/",
   },
-  // CAO & Modélisation
+  // CAD & Modeling
   {
     id: 5,
     name: "SolidWorks",
     image: "/images/logiciel/solidworks.svg",
-    categorie: "CAO & 3D",
+    categorie: "CAD & 3D",
     link: "https://www.solidworks.com/fr",
   },
   {

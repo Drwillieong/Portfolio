@@ -32,7 +32,7 @@ export default function CompXp({ data, id, title }: CompXpProps) {
 function XpComp({ children }: { children: React.ReactNode }) {
   return (
     <div className="relative flex flex-col gap-10">
-      {/* Barre latéral */}
+      {/* Side bar */}
       <div className="absolute bottom-0 left-0.75 top-2 w-0.5 bg-border/60" />
       {children}
     </div>
@@ -62,15 +62,15 @@ function ArticleXp({
         </span>
       </div>
 
-      {/* Liste des missions */}
+      {/* Mission list */}
       <div className="flex flex-col gap-4">
         {missions.map((mission) => (
           <div key={mission.title} className="flex flex-col gap-2">
-            {/* Titre de la mission */}
+            {/* Mission title */}
             <h4 className="text-sm font-medium text-foreground/90">
               {mission.title}
             </h4>
-            {/* Points de la mission */}
+            {/* Mission points */}
             <ul className="ml-1 flex list-inside flex-col gap-1.5">
               {mission.bulletPoints.map((point) => (
                 <li
@@ -95,8 +95,8 @@ function ArticleXp({
 function ShowMoreButton({
   isOpen,
   onClick,
-  labelMore = "Voir plus",
-  labelLess = "Voir moins",
+  labelMore = "See more",
+  labelLess = "See less",
 }: ShowMoreButtonProps) {
   return (
     <button

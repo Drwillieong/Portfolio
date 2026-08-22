@@ -68,7 +68,7 @@ export interface ProjectProps {
     websiteLink: string;
   };
   image?: string[];
-  status: "En cours" | "Terminé" | "À venir";
+  status: "In progress" | "Completed" | "Coming soon";
   favorite?: boolean;
 }
 

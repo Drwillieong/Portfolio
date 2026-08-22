@@ -9,8 +9,8 @@ export default function Projects() {
       <SwitchPages />
 
       <HeroCategoryProject
-        title="Projets personnels"
-        description="Découvrez mes projets personnels, réalisés en dehors de mes formations."
+        title="Personal Projects"
+        description="Discover my personal projects, completed outside of my training."
       />
       <GridProject projects={projects_perso} />
     </main>

@@ -3,8 +3,8 @@ import { ProjectProps } from "@/types/types";
 export const projects_e6: ProjectProps[] = [
   {
     title: "Galerie Auto",
-    desc: "Application web de galerie automobile développée avec Next.js + React + TypeScript + Tailwind CSS. Elle permet d’afficher des véhicules avec leurs informations (marque, modèle, année, carburant, prix, etc.).",
-    role: "Développeur Full Stack",
+    desc: "Car gallery web application built with Next.js + React + TypeScript + Tailwind CSS. It displays vehicles with their information (brand, model, year, fuel, price, etc.).",
+    role: "Full Stack Developer",
     stack: ["React", "Next.js", "Tailwind", "TypeScript", "Lucide"],
     list: {
       githubLink:
@@ -16,14 +16,14 @@ export const projects_e6: ProjectProps[] = [
       "/projets/e6/images/galerie_auto-1.png",
       "/projets/e6/images/galerie_auto-2.png",
     ],
-    status: "À venir",
+    status: "Coming soon",
     favorite: true,
   },
 
   {
     title: "StadiumCompany",
-    desc: "Site web de gestion d'entreprise de stade. Permet de gérer les réservations, les clients et les services proposés par l'entreprise.",
-    role: "Développeur Full Stack",
+    desc: "Stadium company management website. Allows managing reservations, clients and the services offered by the company.",
+    role: "Full Stack Developer",
     stack: ["Vite.js", "Tailwind", "TypeScript", "Lucide"],
     list: {
       githubLink: "",
@@ -31,14 +31,14 @@ export const projects_e6: ProjectProps[] = [
       websiteLink: "",
     },
     image: ["/projets/e6/images/StadiumCompany.png"],
-    status: "À venir",
+    status: "Coming soon",
     favorite: false,
   },
 
   {
     title: "Absolute Stream",
-    desc: "Application web de reviews de films et séries. Permet de noter, commenter et consulter les critiques via l'API TMDB.",
-    role: "Développeur Full Stack",
+    desc: "Web application for reviewing movies and series. Allows you to rate, comment and view reviews via the TMDB API.",
+    role: "Full Stack Developer",
     stack: ["Next.js", "Tailwind", "TypeScript", "TMDB API"],
     list: {
       githubLink: "https://github.com/FlytziTv/Absolute_Stream",
@@ -46,7 +46,7 @@ export const projects_e6: ProjectProps[] = [
       websiteLink: "https://absolute-stream.vercel.app/",
     },
     image: ["/projets/perso/images/absolute-stream.png"],
-    status: "En cours",
+    status: "In progress",
     favorite: true,
   },
 ];

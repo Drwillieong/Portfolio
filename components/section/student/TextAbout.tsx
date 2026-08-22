@@ -4,11 +4,11 @@ export default function TextAboutStud() {
   return (
     <div className="flex flex-col gap-4 text-sm text-muted-foreground">
       <p>
-        Étudiant en{" "}
+        Student in{" "}
         <span className="text-foreground font-medium">BTS SIO option SLAM</span>{" "}
-        à Ynov Campus Paris, je me forme au développement Full-Stack avec une
-        vraie passion pour la création d&apos;applications web modernes et
-        performantes. Je travaille principalement avec{" "}
+        at Ynov Campus Paris, I am training in Full-Stack development with a
+        real passion for building modern and performant web applications. I
+        primarily work with{" "}
         <TextLink text="React" url="#stack" />,{" "}
         <TextLink text="Tailwind CSS" url="#stack" />,{" "}
         <TextLink text="TypeScript" url="#stack" />,{" "}
@@ -17,15 +17,15 @@ export default function TextAboutStud() {
         <TextLink text="Express.js" url="#stack" />.
       </p>
       <p>
-        En parallèle de mes études, je multiplie les projets personnels pour
-        progresser plus vite que le rythme scolaire : applications de gestion,
-        plateformes web, outils internes... J&apos;apprends aussi actuellement
-        Angular en vue de mon prochain stage chez 6TEAM en tant que développeur
+        Alongside my studies, I take on many personal projects to
+        progress faster than the school pace: management applications,
+        web platforms, internal tools... I&apos;m also currently
+        learning Angular ahead of my upcoming internship at 6TEAM as a developer
         Full-Stack.
       </p>
       <p>
-        Je suis actuellement à la recherche d&apos;une alternance en
-        développement Full-Stack / Backend à partir de septembre 2026, en
+        I am currently looking for a work-study program in
+        Full-Stack / Backend development starting September 2026, in
         Île-de-France.
       </p>
     </div>

@@ -12,7 +12,7 @@ export default function StudPage() {
     <main className="max-w-220 mx-auto py-12 sm:py-24 px-6 space-y-10">
       <Hero />
       <About />
-      <CompXp data={workData} id="work" title="Expérience professionnelle" />
+      <CompXp data={workData} id="work" title="Professional Experience" />
       <CompXp data={educationData} id="school" title="Formation" />
       <ProjectStud />
       <Skills />

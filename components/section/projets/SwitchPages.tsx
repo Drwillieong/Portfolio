@@ -7,24 +7,24 @@ import { usePathname } from "next/navigation";
 export default function SwitchPages() {
   const pathname = usePathname();
 
-  // Configuration de navigation
+  // Navigation configuration
   const navigation = {
     "/student/projects/perso": {
-      prev: { title: "Épreuve E6", href: "/student/projects/e6" },
-      next: { title: "Épreuve E5", href: "/student/projects/e5" },
+      prev: { title: "Exam E6", href: "/student/projects/e6" },
+      next: { title: "Exam E5", href: "/student/projects/e5" },
     },
     "/student/projects/e5": {
-      prev: { title: "Projets Perso", href: "/student/projects/perso" },
-      next: { title: "Épreuve E6", href: "/student/projects/e6" },
+      prev: { title: "Personal Projects", href: "/student/projects/perso" },
+      next: { title: "Exam E6", href: "/student/projects/e6" },
     },
     "/student/projects/e6": {
-      prev: { title: "Épreuve E5", href: "/student/projects/e5" },
-      next: { title: "Projets Perso", href: "/student/projects/perso" },
+      prev: { title: "Exam E5", href: "/student/projects/e5" },
+      next: { title: "Personal Projects", href: "/student/projects/perso" },
     },
   };
 
-  // On récupère les liens correspondants au chemin actuel
-  // On ajoute une sécurité (fallback) au cas où le pathname ne match pas parfaitement
+  // We retrieve the links corresponding to the current path
+  // We add a fallback in case the pathname does not match perfectly
   const currentPage =
     navigation[pathname as keyof typeof navigation] ||
     navigation["/student/projects/e5"];

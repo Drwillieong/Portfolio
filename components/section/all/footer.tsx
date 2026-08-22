@@ -25,7 +25,7 @@ export default function Footer() {
       </div>
 
       <p className="z-10 text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Mon Portfolio. Tous droits réservés.
+        © {new Date().getFullYear()} My Portfolio. All rights reserved.
       </p>
     </div>
   );

@@ -3,8 +3,8 @@ import { ProjectProps } from "@/types/types";
 export const projects_perso: ProjectProps[] = [
   {
     title: "Interface garage FiveM",
-    desc: "Interface utilisateur pour la gestion des garages dans les serveurs FiveM (GTA V). Permet aux joueurs de stocker, récupérer et gérer leurs véhicules en jeu.",
-    role: "Développeur Frontend",
+    desc: "User interface for managing garages on FiveM servers (GTA V). Allows players to store, retrieve and manage their in-game vehicles.",
+    role: "Frontend Developer",
     stack: ["Next.js", "Tailwind", "TypeScript", "Lucide", "Vercel"],
     list: {
       githubLink: "https://github.com/FlytziTv/sz-fivem",
@@ -16,12 +16,12 @@ export const projects_perso: ProjectProps[] = [
       "/projets/perso/images/fivem-garage-2.png",
       "/projets/perso/images/fivem-garage-3.png",
     ],
-    status: "Terminé",
+    status: "Completed",
   },
   {
     title: "Portfolio Alexis De Jesus",
-    desc: "Hub digital full-stack conçu comme un dashboard de monitoring. Ce projet centralise mes expériences via une architecture modulaire en TypeScript, intégrant des API routes pour le contact.",
-    role: "Développeur Full Stack",
+    desc: "Full-stack digital hub designed as a monitoring dashboard. This project centralizes my experiences through a modular architecture in TypeScript, integrating API routes for contact.",
+    role: "Full Stack Developer",
     stack: [
       "Next.js",
       "Tailwind",
@@ -37,13 +37,13 @@ export const projects_perso: ProjectProps[] = [
       websiteLink: "https://aalexis.fr",
     },
     image: ["/projets/perso/images/sz-folio.png"],
-    status: "En cours",
+    status: "In progress",
     favorite: true,
   },
   {
     title: "Absolute Stream",
-    desc: "Application web de reviews de films et séries. Permet de noter, commenter et consulter les critiques via l'API TMDB.",
-    role: "Développeur Full Stack",
+    desc: "Web application for reviewing movies and series. Allows you to rate, comment and view reviews via the TMDB API.",
+    role: "Full Stack Developer",
     stack: ["Next.js", "Tailwind", "TypeScript", "TMDB API"],
     list: {
       githubLink: "https://github.com/FlytziTv/Absolute_Stream",
@@ -51,12 +51,12 @@ export const projects_perso: ProjectProps[] = [
       websiteLink: "https://absolute-stream.vercel.app/",
     },
     image: ["/projets/perso/images/absolute-stream.png"],
-    status: "En cours",
+    status: "In progress",
   },
   {
     title: "Nono's Cook",
-    desc: "Site vitrine pour un particulier passionné de cuisine de gâteau. L'application présente ces créations, cela permet aussi de passer commande pour des gâteaux personnalisés.",
-    role: "Développeur Full Stack",
+    desc: "Showcase website for an individual passionate about cake baking. The application presents their creations and also allows ordering custom cakes.",
+    role: "Full Stack Developer",
     stack: ["Next.js", "Tailwind", "TypeScript", "Lucide", "Vercel", "NeonDB"],
     list: {
       githubLink: "https://github.com/FlytziTv/cookbynolan",
@@ -68,13 +68,13 @@ export const projects_perso: ProjectProps[] = [
       "/projets/perso/images/cookbynolan-2.png",
       "/projets/perso/images/cookbynolan-3.png",
     ],
-    status: "En cours",
+    status: "In progress",
     favorite: true,
   },
   {
     title: "SZ Développement",
-    desc: "Site vitrine mon collectif de développeur informatique. L'application présente les différents projets réalisés par le collectif, ainsi que les membres qui le composent.",
-    role: "Développeur Full Stack",
+    desc: "Showcase website for my collective of software developers. The application presents the various projects completed by the collective, as well as its members.",
+    role: "Full Stack Developer",
     stack: ["Next.js", "Tailwind", "TypeScript", "Lucide", "Vercel"],
     list: {
       githubLink: "https://github.com/SZ-Developpement/website",
@@ -86,13 +86,13 @@ export const projects_perso: ProjectProps[] = [
       "/projets/perso/images/sz-dev-2.png",
       "/projets/perso/images/sz-dev-3.png",
     ],
-    status: "Terminé",
+    status: "Completed",
   },
 
   {
     title: "szproj",
-    desc: "Outil en ligne de commande pour créer des projets rapidement depuis le terminal.",
-    role: "Développeur Full Stack",
+    desc: "Command-line tool to quickly create projects from the terminal.",
+    role: "Full Stack Developer",
     stack: ["Git", "Shell"],
     list: {
       githubLink: "https://github.com/FlytziTv/szproj",
@@ -100,13 +100,13 @@ export const projects_perso: ProjectProps[] = [
       websiteLink: "",
     },
     image: [],
-    status: "En cours",
+    status: "In progress",
   },
 
   {
     title: "LogPulse",
-    desc: "LogPulse est un dashboard de logs self-hosted qui centralise les logs de plusieurs projets en un seul endroit, avec un streaming en temps réel.",
-    role: "Développeur Full Stack",
+    desc: "LogPulse is a self-hosted log dashboard that centralizes logs from multiple projects in one place, with real-time streaming.",
+    role: "Full Stack Developer",
     stack: [
       "Node.js",
       "Express",
@@ -127,13 +127,13 @@ export const projects_perso: ProjectProps[] = [
       "/projets/perso/images/LogPulse-2.png",
       "/projets/perso/images/LogPulse-3.png",
     ],
-    status: "En cours",
+    status: "In progress",
   },
 
   {
     title: "CvBuilder",
-    desc: "Générateur de CV moderne pour créer, prévisualiser et exporter un CV rapidement",
-    role: "Développeur Full Stack",
+    desc: "Modern CV generator to create, preview and export a resume quickly",
+    role: "Full Stack Developer",
     stack: ["React", "TypeScript", "Next.js", "Tailwind", "Lucide", "Pdf Lib"],
     list: {
       githubLink: "https://github.com/FlytziTv/CvBuilder",
@@ -145,13 +145,13 @@ export const projects_perso: ProjectProps[] = [
       "/projets/perso/images/CvBuilder-2.png",
       "/projets/perso/images/CvBuilder-3.png",
     ],
-    status: "Terminé",
+    status: "Completed",
   },
 
   {
     title: "MyDriveLog",
-    desc: "MyDriveLog est une application web personnelle destinée aux propriétaires de véhicules, passionnés ou non. Elle centralise tout ce qui concerne ta voiture en un seul endroit : la fiche technique du véhicule, l'historique complet des interventions mécaniques, et l'organisation de tes trajets et road trips entre amis avec partage des dépenses.",
-    role: "Développeur Full Stack",
+    desc: "MyDriveLog is a personal web application for vehicle owners, whether enthusiasts or not. It centralizes everything about your car in one place: the vehicle's technical sheet, the complete history of mechanical work, and organizing your trips and road trips with friends including expense sharing.",
+    role: "Full Stack Developer",
     stack: [
       "React",
       "Node.js",
@@ -172,13 +172,13 @@ export const projects_perso: ProjectProps[] = [
       "/projets/perso/images/MyDriveLog-2.png",
       "/projets/perso/images/MyDriveLog-3.png",
     ],
-    status: "En cours",
+    status: "In progress",
   },
 
   {
     title: "Projex",
-    desc: "Dashboard de suivi de projets personnels avec intégration CLI — gérez vos projets et étapes directement depuis votre terminal.",
-    role: "Développeur Full Stack",
+    desc: "Personal project tracking dashboard with CLI integration — manage your projects and steps directly from your terminal.",
+    role: "Full Stack Developer",
     stack: [
       "React",
       "Node.js",
@@ -200,6 +200,6 @@ export const projects_perso: ProjectProps[] = [
       "/projets/perso/images/Projex-2.png",
       "/projets/perso/images/Projex-3.png",
     ],
-    status: "En cours",
+    status: "In progress",
   },
 ];

@@ -16,7 +16,7 @@ function Hero() {
         <div className="flex items-center justify-center shrink-0">
           <Image
             src="https://avatars.githubusercontent.com/u/150966588?v=4"
-            alt="Image de profil Flytzi"
+            alt="Flytzi profile image"
             width={100}
             height={100}
             className="rounded-full"
@@ -31,7 +31,7 @@ function Hero() {
 
           {/* Job Title */}
           <p className="font-light text-lg text-muted-foreground sm:text-left text-center">
-            Développeur Full-Stack
+            Full-Stack Developer
           </p>
 
           {/* Location and Time */}

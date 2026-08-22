@@ -5,8 +5,8 @@ export default function Projects() {
   return (
     <main className="max-w-220 mx-auto py-12 sm:py-24 px-6 space-y-10">
       <HeroCategoryProject
-        title="Mes projets favoris"
-        description="Découvrez une sélection de mes travaux les plus significatifs."
+        title="My favorite projects"
+        description="Discover a selection of my most significant work."
       />
       <ProjetFav />
     </main>
