@@ -8,24 +8,24 @@ export default function Footer() {
     <div className="relative flex w-full flex-col gap-3 items-center justify-center overflow-hidden border-t border-border/80 pt-10">
       <div className="z-10 flex items-center bg-muted/70 rounded-full py-3 px-4 gap-4 text-foreground">
         <LinkSocial
-          url="https://github.com/FlytziTv"
+          url="https://github.com/Drwillieong"
           title="GitHub"
           icon={<Github size={16} />}
         />
         <LinkSocial
-          url="https://www.linkedin.com/in/alexis-dejesus/"
+          url="https://www.linkedin.com/in/kevinbolado"
           title="LinkedIn"
           icon={<Linkedin size={16} />}
         />
         <LinkSocial
-          url="mailto:alexis.dejesus019@gmail.com"
+          url="mailto:kevincorpuz.321@gmail.com"
           title="Email"
           icon={<Gmail size={16} />}
         />
       </div>
 
       <p className="z-10 text-xs text-muted-foreground">
-        © {new Date().getFullYear()} My Portfolio. All rights reserved.
+        © {new Date().getFullYear()} Kevin Corpuz Bolado. All rights reserved.
       </p>
     </div>
   );

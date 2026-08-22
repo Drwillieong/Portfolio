@@ -1,205 +1,34 @@
 import { ProjectProps } from "@/types/types";
 
 export const projects_perso: ProjectProps[] = [
+  
   {
-    title: "Interface garage FiveM",
-    desc: "User interface for managing garages on FiveM servers (GTA V). Allows players to store, retrieve and manage their in-game vehicles.",
+    title: "Motorshop POS & Inventory System",
+    desc: "Developed a Point-of-Sale and inventory management application designed for motor shops.",
     role: "Frontend Developer",
-    stack: ["Next.js", "Tailwind", "TypeScript", "Lucide", "Vercel"],
+    stack: ["React.js", "CSS", "Tailwind CSS"],
     list: {
-      githubLink: "https://github.com/FlytziTv/sz-fivem",
+      githubLink: "https://github.com/Drwillieong/Inventory-and-Appointment-System-of-a-MotorShop",
       documentationLink: "",
-      websiteLink: "",
+      websiteLink: "https://se-motor.netlify.app/s",
     },
-    image: [
-      "/projets/perso/images/fivem-garage-1.png",
-      "/projets/perso/images/fivem-garage-2.png",
-      "/projets/perso/images/fivem-garage-3.png",
-    ],
+  image: ["/projets/perso/images/se-motor.jpg"],
     status: "Completed",
-  },
-  {
-    title: "Portfolio Alexis De Jesus",
-    desc: "Full-stack digital hub designed as a monitoring dashboard. This project centralizes my experiences through a modular architecture in TypeScript, integrating API routes for contact.",
-    role: "Full Stack Developer",
-    stack: [
-      "Next.js",
-      "Tailwind",
-      "TypeScript",
-      "Framer Motion",
-      "Lucide",
-      "resend",
-      "Vercel",
-    ],
-    list: {
-      githubLink: "https://github.com/FlytziTv/sz-slam",
-      documentationLink: "/files/projects/perso/portfolio.pdf",
-      websiteLink: "https://aalexis.fr",
-    },
-    image: ["/projets/perso/images/sz-folio.png"],
-    status: "In progress",
     favorite: true,
   },
-  {
-    title: "Absolute Stream",
-    desc: "Web application for reviewing movies and series. Allows you to rate, comment and view reviews via the TMDB API.",
-    role: "Full Stack Developer",
-    stack: ["Next.js", "Tailwind", "TypeScript", "TMDB API"],
+  
+ {
+    title: "Personal Portfolio Website",
+    desc: "Personal interactive portfolio website built to display technical projects, experience, and credentials.",
+    role: "Full-Stack Developer",
+    stack: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
     list: {
-      githubLink: "https://github.com/FlytziTv/Absolute_Stream",
-      documentationLink: "/files/projects/e6/absolute-stream.pdf",
-      websiteLink: "https://absolute-stream.vercel.app/",
-    },
-    image: ["/projets/perso/images/absolute-stream.png"],
-    status: "In progress",
-  },
-  {
-    title: "Nono's Cook",
-    desc: "Showcase website for an individual passionate about cake baking. The application presents their creations and also allows ordering custom cakes.",
-    role: "Full Stack Developer",
-    stack: ["Next.js", "Tailwind", "TypeScript", "Lucide", "Vercel", "NeonDB"],
-    list: {
-      githubLink: "https://github.com/FlytziTv/cookbynolan",
+      githubLink: "https://github.com/Drwillieong",
       documentationLink: "",
-      websiteLink: "https://cookbynolan.vercel.app/",
+      websiteLink: "https://kevinbolado.netlify.app/",
     },
-    image: [
-      "/projets/perso/images/cookbynolan-1.png",
-      "/projets/perso/images/cookbynolan-2.png",
-      "/projets/perso/images/cookbynolan-3.png",
-    ],
+    image: ["/projets/perso/images/pogi.jpg"],
     status: "In progress",
     favorite: true,
-  },
-  {
-    title: "SZ Développement",
-    desc: "Showcase website for my collective of software developers. The application presents the various projects completed by the collective, as well as its members.",
-    role: "Full Stack Developer",
-    stack: ["Next.js", "Tailwind", "TypeScript", "Lucide", "Vercel"],
-    list: {
-      githubLink: "https://github.com/SZ-Developpement/website",
-      documentationLink: "",
-      websiteLink: "https://www.sz-dev.fr/",
-    },
-    image: [
-      "/projets/perso/images/sz-dev-1.png",
-      "/projets/perso/images/sz-dev-2.png",
-      "/projets/perso/images/sz-dev-3.png",
-    ],
-    status: "Completed",
-  },
-
-  {
-    title: "szproj",
-    desc: "Command-line tool to quickly create projects from the terminal.",
-    role: "Full Stack Developer",
-    stack: ["Git", "Shell"],
-    list: {
-      githubLink: "https://github.com/FlytziTv/szproj",
-      documentationLink: "",
-      websiteLink: "",
-    },
-    image: [],
-    status: "In progress",
-  },
-
-  {
-    title: "LogPulse",
-    desc: "LogPulse is a self-hosted log dashboard that centralizes logs from multiple projects in one place, with real-time streaming.",
-    role: "Full Stack Developer",
-    stack: [
-      "Node.js",
-      "Express",
-      "Next.js",
-      "Prisma",
-      "Tailwind",
-      "Lucide",
-      "Better Auth",
-      "Prostgresql",
-    ],
-    list: {
-      githubLink: "https://github.com/FlytziTv/LogPulse",
-      documentationLink: "",
-      websiteLink: "",
-    },
-    image: [
-      "/projets/perso/images/LogPulse-1.png",
-      "/projets/perso/images/LogPulse-2.png",
-      "/projets/perso/images/LogPulse-3.png",
-    ],
-    status: "In progress",
-  },
-
-  {
-    title: "CvBuilder",
-    desc: "Modern CV generator to create, preview and export a resume quickly",
-    role: "Full Stack Developer",
-    stack: ["React", "TypeScript", "Next.js", "Tailwind", "Lucide", "Pdf Lib"],
-    list: {
-      githubLink: "https://github.com/FlytziTv/CvBuilder",
-      documentationLink: "",
-      websiteLink: "",
-    },
-    image: [
-      "/projets/perso/images/CvBuilder-1.png",
-      "/projets/perso/images/CvBuilder-2.png",
-      "/projets/perso/images/CvBuilder-3.png",
-    ],
-    status: "Completed",
-  },
-
-  {
-    title: "MyDriveLog",
-    desc: "MyDriveLog is a personal web application for vehicle owners, whether enthusiasts or not. It centralizes everything about your car in one place: the vehicle's technical sheet, the complete history of mechanical work, and organizing your trips and road trips with friends including expense sharing.",
-    role: "Full Stack Developer",
-    stack: [
-      "React",
-      "Node.js",
-      "Jwt",
-      "Express",
-      "PostgreSQL",
-      "Puppeteer",
-      "Tailwind",
-      "Lucide",
-    ],
-    list: {
-      githubLink: "https://github.com/FlytziTv/MyDriveLog",
-      documentationLink: "",
-      websiteLink: "",
-    },
-    image: [
-      "/projets/perso/images/MyDriveLog-1.png",
-      "/projets/perso/images/MyDriveLog-2.png",
-      "/projets/perso/images/MyDriveLog-3.png",
-    ],
-    status: "In progress",
-  },
-
-  {
-    title: "Projex",
-    desc: "Personal project tracking dashboard with CLI integration — manage your projects and steps directly from your terminal.",
-    role: "Full Stack Developer",
-    stack: [
-      "React",
-      "Node.js",
-      "Jwt",
-      "Express",
-      "PostgreSQL",
-      "TypeScript",
-      "Tailwind",
-      "Lucide",
-      "Zod",
-    ],
-    list: {
-      githubLink: "https://github.com/FlytziTv/Projex",
-      documentationLink: "",
-      websiteLink: "",
-    },
-    image: [
-      "/projets/perso/images/Projex-1.png",
-      "/projets/perso/images/Projex-2.png",
-      "/projets/perso/images/Projex-3.png",
-    ],
-    status: "In progress",
   },
 ];

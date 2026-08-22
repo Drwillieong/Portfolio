@@ -5,28 +5,31 @@ export default function TextAboutStud() {
     <div className="flex flex-col gap-4 text-sm text-muted-foreground">
       <p>
         Student in{" "}
-        <span className="text-foreground font-medium">BTS SIO option SLAM</span>{" "}
-        at Ynov Campus Paris, I am training in Full-Stack development with a
-        real passion for building modern and performant web applications. I
-        primarily work with{" "}
-        <TextLink text="React" url="#stack" />,{" "}
-        <TextLink text="Tailwind CSS" url="#stack" />,{" "}
-        <TextLink text="TypeScript" url="#stack" />,{" "}
-        <TextLink text="Next.js" url="#stack" />,{" "}
-        <TextLink text="Vite" url="#stack" /> et{" "}
-        <TextLink text="Express.js" url="#stack" />.
+        <span className="text-foreground font-medium">
+          Bachelor of Science in Information Technology
+        </span>{" "}
+        at City College of Calamba (2023&ndash;Present), I am training in
+        Full-Stack development with a real passion for building modern and
+        performant web applications. I primarily work with{" "}
+        <TextLink text="React" url="#skills" />,{" "}
+        <TextLink text="Tailwind CSS" url="#skills" />,{" "}
+        <TextLink text="TypeScript" url="#skills" />,{" "}
+         <TextLink text="PHP" url="#skills" />,{" "}
+        <TextLink text="MySql" url="#skills" />,{" "}
+       
+       
+        <TextLink text="Node.js" url="#skills" /> and{" "}
+     
       </p>
       <p>
-        Alongside my studies, I take on many personal projects to
-        progress faster than the school pace: management applications,
-        web platforms, internal tools... I&apos;m also currently
-        learning Angular ahead of my upcoming internship at 6TEAM as a developer
-        Full-Stack.
+        Alongside my studies, I take on many personal and school projects to
+        progress faster &mdash; employee loan systems, laundry booking apps,
+        POS &amp; inventory tools, and interactive portfolios &mdash; applying
+        what I learn to build concrete, user-friendly solutions.
       </p>
       <p>
-        I am currently looking for a work-study program in
-        Full-Stack / Backend development starting September 2026, in
-        Île-de-France.
+        I am constantly exploring new technologies and best practices to grow as
+        a developer and deliver sustainable, high-quality web applications.
       </p>
     </div>
   );

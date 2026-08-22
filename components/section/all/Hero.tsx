@@ -15,8 +15,8 @@ function Hero() {
         {/* Profile Image */}
         <div className="flex items-center justify-center shrink-0">
           <Image
-            src="https://avatars.githubusercontent.com/u/150966588?v=4"
-            alt="Flytzi profile image"
+            src="https://github.com/Drwillieong.png"
+            alt="Kevin Corpuz Bolado profile image"
             width={100}
             height={100}
             className="rounded-full"
@@ -27,18 +27,18 @@ function Hero() {
         {/* Text Content */}
         <div className="flex flex-col gap-1 justify-start items-start">
           {/* Name */}
-          <h1 className="md:text-4xl text-2xl font-bold">Alexis De Jesus</h1>
+          <h1 className="md:text-4xl text-2xl font-bold">Kevin Corpuz Bolado</h1>
 
           {/* Job Title */}
           <p className="font-light text-lg text-muted-foreground sm:text-left text-center">
-            Full-Stack Developer
+            Full-Stack Developer &amp; BS Information Technology Student
           </p>
 
           {/* Location and Time */}
           <div className="flex items-center gap-2 text-muted-foreground text-sm">
             <span className="inline-flex items-center gap-1.5">
               <MapPin size={16} />
-              Paris, France
+              Calamba City, Laguna, Philippines
             </span>
             <span>·</span>
             <span>
@@ -46,7 +46,7 @@ function Hero() {
                 hour: "2-digit",
                 minute: "2-digit",
               })}{" "}
-              (GMT+1)
+              (GMT+8)
             </span>
           </div>
         </div>

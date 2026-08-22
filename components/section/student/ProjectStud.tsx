@@ -7,20 +7,16 @@ export default function ProjectStud() {
     <TitleCategory id="projectstud" title="Mes Projets">
       <div className="grid grid-cols-2 gap-3">
         <CardProjectStud
-          url="/student/project/e5"
-          title="Projet E5"
-          description="Project completed during training"
+          url="/student/projects/e5"
+          title="Course Projects"
+          description="Projects completed during my coursework"
         />
+       
         <CardProjectStud
-          url="/student/project/e6"
-          title="Projet E6"
-          description="Project completed during training"
-        />
-        <CardProjectStud
-          url="/student/project/e5"
+          url="/student/projects/perso"
           colspan={2}
-          title="Projet Personnel"
-          description="Project completed outside of training"
+          title="Personal Projects"
+          description="Projects built outside of my coursework"
         />
       </div>
     </TitleCategory>

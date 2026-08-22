@@ -1,49 +1,40 @@
 import { StackProps } from "@/types/types";
 
 export const Languages: StackProps[] = [
-  // Frontend
   {
     id: 1,
-    name: "HTML",
-    image: "/images/skills/html.svg",
-    categorie: "Frontend",
-    link: "https://developer.mozilla.org/docs/HTML",
-  },
-  {
-    id: 2,
-    name: "CSS",
-    image: "/images/skills/css.svg",
-    categorie: "Frontend",
-    link: "https://developer.mozilla.org/Web/CSS",
-  },
-  {
-    id: 3,
     name: "JavaScript",
     image: "/images/skills/javascript.svg",
-    categorie: "Frontend",
+    categorie: "Languages",
     link: "https://developer.mozilla.org/docs/JavaScript",
   },
   {
-    id: 4,
+    id: 2,
     name: "TypeScript",
     image: "/images/skills/typescript.svg",
-    categorie: "Frontend",
+    categorie: "Languages",
     link: "https://www.typescriptlang.org",
   },
-  // Backend & Scripting
   {
-    id: 5,
+    id: 3,
     name: "PHP",
     image: "/images/skills/php.svg",
-    categorie: "Backend",
+    categorie: "Languages",
     link: "https://www.php.net",
   },
   {
-    id: 6,
-    name: "Lua",
-    image: "/images/skills/lua.svg",
-    categorie: "Backend",
-    link: "https://www.lua.org",
+    id: 4,
+    name: "HTML5",
+    image: "/images/skills/html.svg",
+    categorie: "Languages",
+    link: "https://developer.mozilla.org/docs/HTML",
+  },
+  {
+    id: 5,
+    name: "CSS3",
+    image: "/images/skills/css.svg",
+    categorie: "Languages",
+    link: "https://developer.mozilla.org/Web/CSS",
   },
 ];
 
@@ -51,27 +42,20 @@ export const Frameworks: StackProps[] = [
   // Frontend
   {
     id: 1,
-    name: "React",
+    name: "React.js",
     image: "/images/skills/react.svg",
     categorie: "Frontend",
     link: "https://www.reactjs.org",
   },
   {
     id: 2,
-    name: "Vue.js",
-    image: "/images/skills/vue.svg",
-    categorie: "Frontend",
-    link: "https://www.vuejs.org",
-  },
-  {
-    id: 3,
     name: "Next.js",
     image: "/images/skills/nextjs.svg",
     categorie: "Frontend",
     link: "https://www.nextjs.org",
   },
   {
-    id: 4,
+    id: 3,
     name: "Tailwind CSS",
     image: "/images/skills/tailwindcss.svg",
     categorie: "Frontend",
@@ -79,102 +63,63 @@ export const Frameworks: StackProps[] = [
   },
   // Backend
   {
-    id: 5,
+    id: 4,
     name: "Node.js",
     image: "/images/skills/nodejs.svg",
     categorie: "Backend",
     link: "https://www.nodejs.org",
   },
   {
-    id: 6,
-    name: "Symfony",
-    image: "/images/skills/symfony.svg",
+    id: 5,
+    name: "Express.js",
+    image: "/images/skills/express.svg",
     categorie: "Backend",
-    link: "https://symfony.com",
+    link: "https://www.expressjs.com",
   },
-  // Databases
+  {
+    id: 6,
+    name: "Laravel",
+    image: "/images/skills/laravel.svg",
+    categorie: "Backend",
+    link: "https://laravel.com",
+  },
+  // Databases & Cloud
   {
     id: 7,
     name: "MySQL",
     image: "/images/skills/mysql.svg",
-    categorie: "Databases",
+    categorie: "Databases & Cloud",
     link: "https://www.mysql.com",
   },
-  // Server & System
   {
     id: 8,
-    name: "Apache",
-    image: "/images/skills/apache.svg",
-    categorie: "Server & System",
-    link: "https://www.apache.org",
-  },
-  {
-    id: 9,
-    name: "Debian",
-    image: "/images/skills/debian.svg",
-    categorie: "Server & System",
-    link: "https://www.debian.org",
+    name: "Firebase",
+    image: "/images/skills/firebase.svg",
+    categorie: "Databases & Cloud",
+    link: "https://firebase.google.com",
   },
 ];
 
 export const Logiciels: StackProps[] = [
-  // Development & DevOps
   {
     id: 1,
-    name: "Visual Studio Code",
-    image: "/images/logiciel/vscode.svg",
-    categorie: "Development",
-    link: "https://code.visualstudio.com/",
-  },
-  {
-    id: 2,
     name: "Git",
     image: "/images/logiciel/git.svg",
-    categorie: "DevOps & Versioning",
+    categorie: "Tools & Utilities",
     link: "https://git-scm.com/",
   },
   {
+    id: 2,
+    name: "Computer Hardware & Networking",
+    image: "/images/skills/hardware.svg",
+    categorie: "Tools & Utilities",
+    link: "https://www.comptia.org/certifications/a",
+  },
+  {
     id: 3,
-    name: "Git Extension",
-    image: "/images/logiciel/gitextension.svg",
-    categorie: "DevOps & Versioning",
-    link: "https://gitextensions.github.io/",
-  },
-  // Design
-  {
-    id: 4,
-    name: "Figma",
-    image: "/images/logiciel/figma.svg",
-    categorie: "Design (UI/UX)",
-    link: "https://www.figma.com/fr-fr/",
-  },
-  // CAD & Modeling
-  {
-    id: 5,
-    name: "SolidWorks",
-    image: "/images/logiciel/solidworks.svg",
-    categorie: "CAD & 3D",
-    link: "https://www.solidworks.com/fr",
-  },
-  {
-    id: 6,
-    name: "AutoCad",
-    image: "/images/logiciel/autocad.svg",
-    categorie: "CAO & 3D",
-    link: "https://www.autodesk.com/fr/products/autocad/overview",
-  },
-  {
-    id: 7,
-    name: "Fusion 360",
-    image: "/images/logiciel/fusion360.svg",
-    categorie: "CAO & 3D",
-    link: "https://www.autodesk.com/fr/products/fusion-360/overview",
-  },
-  {
-    id: 8,
-    name: "Blender",
-    image: "/images/logiciel/blender.svg",
-    categorie: "CAO & 3D",
-    link: "https://studio.blender.org/welcome/",
+    name: "Basic Troubleshooting",
+    image: "/images/skills/troubleshooting.svg",
+    categorie: "Tools & Utilities",
+    link: "https://www.comptia.org/certifications/a",
   },
 ];

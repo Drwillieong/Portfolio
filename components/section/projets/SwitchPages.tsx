@@ -10,15 +10,15 @@ export default function SwitchPages() {
   // Navigation configuration
   const navigation = {
     "/student/projects/perso": {
-      prev: { title: "Exam E6", href: "/student/projects/e6" },
-      next: { title: "Exam E5", href: "/student/projects/e5" },
+           prev: { title: "Personal Projects", href: "/student/projects/perso" },
+      next: { title: "Course Projects", href: "/student/projects/e5" },
     },
     "/student/projects/e5": {
       prev: { title: "Personal Projects", href: "/student/projects/perso" },
-      next: { title: "Exam E6", href: "/student/projects/e6" },
+       next: { title: "Course Projects", href: "/student/projects/e5" },
     },
     "/student/projects/e6": {
-      prev: { title: "Exam E5", href: "/student/projects/e5" },
+      prev: { title: "Course Projects", href: "/student/projects/e5" },
       next: { title: "Personal Projects", href: "/student/projects/perso" },
     },
   };

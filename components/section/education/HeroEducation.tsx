@@ -11,15 +11,15 @@ export default function HeroEducation() {
       id="home"
     >
       <div className="flex flex-col gap-3 justify-start items-start">
-        <h1 className="md:text-5xl text-3xl font-bold">Alexis DE JESUS</h1>
+        <h1 className="md:text-5xl text-3xl font-bold">Kevin Corpuz Bolado</h1>
         <p className="text-muted-foreground text-base italic tracking-wide">
-          "Je comprends mieux en cassant qu'en lisant."
-        </p>
+          "Hire niyo nako plzzzz ^^ 
+         </p>
       </div>
       <div className="flex items-center justify-center shrink-0">
         <Image
-          src="https://avatars.githubusercontent.com/u/150966588?v=4"
-          alt="Image de profil Flytzi"
+          src="https://github.com/Drwillieong.png"
+          alt="Image de profil Kevin Corpuz Bolado"
           width={140}
           height={140}
           className="rounded-full"

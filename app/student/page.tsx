@@ -13,7 +13,7 @@ export default function StudPage() {
       <Hero />
       <About />
       <CompXp data={workData} id="work" title="Professional Experience" />
-      <CompXp data={educationData} id="school" title="Formation" />
+      <CompXp data={educationData} id="school" title="Education" />
       <ProjectStud />
       <Skills />
       <Footer />

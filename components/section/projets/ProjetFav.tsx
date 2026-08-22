@@ -9,21 +9,17 @@ import ProjectCard from "@/components/card/CardProject";
 
 export default function ProjetFav() {
   const categories = [
-    {
-      title: "Projets E5",
-      link: "/student/projects/e5",
-      data: projects_e5.filter((project) => project.favorite),
-    },
-    {
-      title: "Projets E6",
-      link: "/student/projects/e6",
-      data: projects_e6.filter((project) => project.favorite),
-    },
-    {
-      title: "Projets personnels",
-      link: "/student/projects/perso",
-      data: projects_perso.filter((project) => project.favorite),
-    },
+      {
+        title: "Course Projects",
+        link: "/student/projects/e5",
+        data: projects_e5.filter((project) => project.favorite),
+      },
+     
+      {
+        title: "Personal Projects",
+        link: "/student/projects/perso",
+        data: projects_perso.filter((project) => project.favorite),
+      },
   ];
 
   return (
@@ -40,7 +36,7 @@ export default function ProjetFav() {
             <h3 className="text-2xl font-bold">{category.title}</h3>
 
             <p className="flex flex-row items-center gap-1 text-sm text-muted-foreground -translate-x-1.5 transition-all duration-500 ease-in-out group-hover:translate-x-0">
-              En voir plus
+              See more
               <MoveRight size={20} />
             </p>
           </Link>

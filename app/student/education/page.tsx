@@ -10,7 +10,7 @@ export default function Education() {
       <CompXp
         data={certificationData}
         id="certifications"
-        title="Mes Certifications"
+        title="My Certifications"
       />
     </main>
   );

@@ -6,12 +6,12 @@ export default function TextAboutPro() {
       <p>
         Full-Stack Developer specialized in building modern,
         performant and responsive web applications. I work with{" "}
-        <TextLink text="React" url="#stack" />,{" "}
-        <TextLink text="Tailwind CSS" url="#stack" />,{" "}
-        <TextLink text="TypeScript" url="#stack" />,{" "}
-        <TextLink text="Next.js" url="#stack" />,{" "}
-        <TextLink text="Vite" url="#stack" /> and{" "}
-        <TextLink text="Express.js" url="#stack" />
+        <TextLink text="React" url="#skills" />,{" "}
+        <TextLink text="Tailwind CSS" url="#skills" />,{" "}
+        <TextLink text="TypeScript" url="#skills" />,{" "}
+        <TextLink text="Next.js" url="#skills" />,{" "}
+        <TextLink text="Node.js" url="#skills" /> and{" "}
+        <TextLink text="Express.js" url="#skills" />
         {" and the modern web ecosystem."}
       </p>
       <p>

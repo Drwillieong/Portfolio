@@ -17,7 +17,7 @@ function GithubGraph() {
     <TitleCategory id="github" title="GitHub Activity">
       <div className="w-full [&_svg]:w-full [&_svg]:h-auto" id="github">
         <GitHubCalendar
-          username="FlytziTv"
+          username="Drwillieong"
           colorScheme={resolvedTheme === "dark" ? "dark" : "light"}
           theme={themeSZ}
           blockSize={12}

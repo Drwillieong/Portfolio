@@ -6,103 +6,35 @@ import { Gmail } from "@/components/icons/gmail";
 export const socials: UserSocial[] = [
   {
     name: "GitHub",
-    url: "https://github.com/FlytziTv",
+    url: "https://github.com/Drwillieong",
     icon: Github,
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/alexis-dejesus/",
+    url: "https://www.linkedin.com/in/kevinbolado",
     icon: Linkedin,
   },
   {
     name: "Mail",
-    url: "mailto:alexis.dejesus019@gmail.com",
+    url: "mailto:kevincorpuz321@gmail.com",
     icon: Gmail,
   },
 ];
 
 export const certificationData: ArticleXpProps[] = [
   {
-    company: "HTML, Semantics",
-    startDate: "2025",
-    endDate: "2025",
-    titleJob: "Certification HTML",
-    stack: "Codédex",
+    company: "TESDA",
+    startDate: "2023",
+    endDate: "2023",
+    titleJob: "Computer System Servicing (CSS) NC II",
+    stack: "TESDA",
     missions: [
       {
-        title: "Validated skills",
+        title: "Certification",
         bulletPoints: [
-          "Mastery of semantic structure",
-          "Creation of accessible web pages",
-          "Complete forms and markup best practices",
-        ],
-      },
-    ],
-  },
-  {
-    company: "CSS Flexbox & Grid",
-    startDate: "2025",
-    endDate: "2025",
-    titleJob: "Codédex",
-    stack: "CSS, Flexbox, Grid",
-    missions: [
-      {
-        title: "Validated skills",
-        bulletPoints: [
-          "Skills in styling and responsive layout",
-          "Advanced flexbox/grid management",
-          "Application of design best practices",
-        ],
-      },
-    ],
-  },
-  {
-    company: "Certification Pix",
-    startDate: "2024",
-    endDate: "2024",
-    titleJob: "Pix",
-    stack: "Digital, Security",
-    missions: [
-      {
-        title: "Validated skills",
-        bulletPoints: [
-          "Validation of key digital skills",
-          "Computer security and information management",
-          "Problem solving and mastery of digital tools",
-        ],
-      },
-    ],
-  },
-  {
-    company: "SecNum Académie",
-    startDate: "2026",
-    endDate: "2026",
-    titleJob: "ANSSI",
-    stack: "Cybersecurity, ANSSI",
-    missions: [
-      {
-        title: "Validated skills",
-        bulletPoints: [
-          "Knowledge of computer security and risk management",
-          "Data protection",
-          "Best practices for securing information systems",
-        ],
-      },
-    ],
-  },
-  {
-    company: "Responsive Web Design",
-    startDate: "2025",
-    endDate: "2025",
-    titleJob: "freeCodeCamp",
-    stack: "HTML5, CSS3, Flexbox, Grid",
-    missions: [
-      {
-        title: "Validated skills",
-        bulletPoints: [
-          "Skills in adaptive design",
-          "Use of media queries, flexbox and grid",
-          "Optimization of web interfaces for all devices",
+          "Completed the Computer System Servicing (CSS) NC II certification.",
+          "Hands-on training in computer hardware assembly, installation, and configuration.",
+          "Practical skills in basic troubleshooting and system maintenance.",
         ],
       },
     ],

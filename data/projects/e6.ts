@@ -2,50 +2,30 @@ import { ProjectProps } from "@/types/types";
 
 export const projects_e6: ProjectProps[] = [
   {
-    title: "Galerie Auto",
-    desc: "Car gallery web application built with Next.js + React + TypeScript + Tailwind CSS. It displays vehicles with their information (brand, model, year, fuel, price, etc.).",
-    role: "Full Stack Developer",
-    stack: ["React", "Next.js", "Tailwind", "TypeScript", "Lucide"],
+    title: "HanapSarap",
+    desc: "An online website where City College of Calamba students can find places to hang out or spend their vacant hours.",
+    role: "Frontend Developer",
+    stack: ["HTML", "CSS", "JavaScript"],
     list: {
-      githubLink:
-        "https://github.com/FlytziTv/Projet-bts-sio/tree/main/galerie_auto",
+      githubLink: "https://github.com/Drwillieong/GroupProject-HanapSarap",
       documentationLink: "",
-      websiteLink: "",
+      websiteLink: "https://hanap-sarap.netlify.app/",
     },
-    image: [
-      "/projets/e6/images/galerie_auto-1.png",
-      "/projets/e6/images/galerie_auto-2.png",
-    ],
-    status: "Coming soon",
+    image: ["/projets/school/images/hanapsarap.jpg"],
+    status: "Completed",
     favorite: true,
   },
-
   {
-    title: "StadiumCompany",
-    desc: "Stadium company management website. Allows managing reservations, clients and the services offered by the company.",
-    role: "Full Stack Developer",
-    stack: ["Vite.js", "Tailwind", "TypeScript", "Lucide"],
+    title: "Personal Portfolio Website",
+    desc: "Personal interactive portfolio website built to display technical projects, experience, and credentials.",
+    role: "Full-Stack Developer",
+    stack: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
     list: {
-      githubLink: "",
-      documentationLink: "/files/projects/e6/StadiumCompany.pdf",
-      websiteLink: "",
+      githubLink: "https://github.com/Drwillieong",
+      documentationLink: "",
+      websiteLink: "https://kevinbolado.netlify.app/",
     },
-    image: ["/projets/e6/images/StadiumCompany.png"],
-    status: "Coming soon",
-    favorite: false,
-  },
-
-  {
-    title: "Absolute Stream",
-    desc: "Web application for reviewing movies and series. Allows you to rate, comment and view reviews via the TMDB API.",
-    role: "Full Stack Developer",
-    stack: ["Next.js", "Tailwind", "TypeScript", "TMDB API"],
-    list: {
-      githubLink: "https://github.com/FlytziTv/Absolute_Stream",
-      documentationLink: "/files/projects/e6/absolute-stream.pdf",
-      websiteLink: "https://absolute-stream.vercel.app/",
-    },
-    image: ["/projets/perso/images/absolute-stream.png"],
+    image: ["/projets/perso/images/kevinbolado.jpg"],
     status: "In progress",
     favorite: true,
   },
