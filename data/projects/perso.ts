@@ -10,7 +10,7 @@ export const projects_perso: ProjectProps[] = [
     list: {
       githubLink: "https://github.com/Drwillieong/Inventory-and-Appointment-System-of-a-MotorShop",
       documentationLink: "",
-      websiteLink: "https://se-motor.netlify.app/s",
+      websiteLink: "https://se-motor.netlify.app",
     },
   image: ["/projets/perso/images/se-motor.jpg"],
     status: "Completed",
@@ -25,7 +25,7 @@ export const projects_perso: ProjectProps[] = [
     list: {
       githubLink: "https://github.com/Drwillieong",
       documentationLink: "",
-      websiteLink: "https://kevinbolado.netlify.app/",
+      websiteLink: "https://kevinpogi.netlify.app/",
     },
     image: ["/projets/perso/images/pogi.jpg"],
     status: "In progress",
