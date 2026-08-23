@@ -12,7 +12,7 @@ export const educationData: ArticleXpProps[] = [
         title: "Coursework",
         bulletPoints: [
           "Computer Networking",
-          "Information Management",
+          "Sofrware Engineering",
           "Database Management System",
           "Information Assurance & Security (IAS)",
           "System Administration and Maintenance (SAM)",

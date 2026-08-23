@@ -11,14 +11,16 @@ export default function TextAboutStud() {
         at City College of Calamba (2023&ndash;Present), I am training in
         Full-Stack development with a real passion for building modern and
         performant web applications. I primarily work with{" "}
-        <TextLink text="React" url="#skills" />,{" "}
+        <TextLink text="ReactJs" url="#skills" />,{" "}
         <TextLink text="Tailwind CSS" url="#skills" />,{" "}
+        <TextLink text="Javascript" url="#skills" />,{" "}
         <TextLink text="TypeScript" url="#skills" />,{" "}
          <TextLink text="PHP" url="#skills" />,{" "}
+         <TextLink text="Node.js" url="#skills" /> and{" "}
         <TextLink text="MySql" url="#skills" />,{" "}
        
        
-        <TextLink text="Node.js" url="#skills" /> and{" "}
+        
      
       </p>
       <p>
