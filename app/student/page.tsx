@@ -4,6 +4,7 @@ import { workData } from "@/data/work";
 import CompXp from "@/components/xp";
 import { educationData } from "@/data/school";
 import Footer from "@/components/section/all/footer";
+import GithubGraph from "@/components/section/all/github-graph";
 import Skills from "@/components/section/all/skills";
 import ProjectStud from "@/components/section/student/ProjectStud";
 
@@ -15,6 +16,7 @@ export default function StudPage() {
       <CompXp data={workData} id="work" title="Professional Experience" />
       <CompXp data={educationData} id="school" title="Education" />
       <ProjectStud />
+      <GithubGraph />
       <Skills />
       <Footer />
     </main>
