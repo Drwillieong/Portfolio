@@ -9,7 +9,7 @@ export const projects_e5: ProjectProps[] = [
     list: {
       githubLink: "https://github.com/Drwillieong/Caps-LoanManagement",
       documentationLink: "",
-      websiteLink: "https://caps-loanmanagement-production.up.railway.app/",
+      websiteLink: "https://leimco.tech/",
     },
     image: ["/projets/school/images/LeimcoLoanManagement.jpg"],
     status: "Completed",

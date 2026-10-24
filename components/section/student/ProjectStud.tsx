@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function ProjectStud() {
   return (
-    <TitleCategory id="projectstud" title="Mes Projets">
+    <TitleCategory id="projectstud" title="My Projects">
       <div className="grid grid-cols-2 gap-3">
         <CardProjectStud
           url="/student/projects/e5"
