@@ -3,10 +3,39 @@
 import dynamic from "next/dynamic";
 import { GitHubCalendar } from "react-github-calendar";
 import { useTheme } from "next-themes";
+import { useEffect, useRef, useState } from "react";
 import TitleCategory from "@/components/layout/TitleCategory";
 
 function GithubGraph() {
   const { resolvedTheme } = useTheme();
+  const [refreshKey, setRefreshKey] = useState(0);
+  const lastRefresh = useRef(0);
+
+  useEffect(() => {
+    lastRefresh.current = Date.now();
+
+    const refreshIfStale = () => {
+      if (
+        document.visibilityState !== "visible" ||
+        Date.now() - lastRefresh.current < 60 * 60 * 1000
+      ) {
+        return;
+      }
+
+      lastRefresh.current = Date.now();
+      setRefreshKey((key) => key + 1);
+    };
+
+    const interval = window.setInterval(refreshIfStale, 60 * 1000);
+    document.addEventListener("visibilitychange", refreshIfStale);
+    window.addEventListener("focus", refreshIfStale);
+
+    return () => {
+      window.clearInterval(interval);
+      document.removeEventListener("visibilitychange", refreshIfStale);
+      window.removeEventListener("focus", refreshIfStale);
+    };
+  }, []);
 
   const themeSZ = {
     light: ["#ebedf0", "#ffcccc", "#ff8080", "#ff4d4d", "#ff2c2c"],
@@ -17,6 +46,7 @@ function GithubGraph() {
     <TitleCategory id="github" title="GitHub Activity">
       <div className="w-full [&_svg]:w-full [&_svg]:h-auto" id="github">
         <GitHubCalendar
+          key={refreshKey}
           username="Drwillieong"
           colorScheme={resolvedTheme === "dark" ? "dark" : "light"}
           theme={themeSZ}
