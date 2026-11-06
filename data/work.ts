@@ -4,7 +4,7 @@ export const workData: ArticleXpProps[] = [
   {
     company: "Shopee",
     startDate: "Jan 2025",
-    endDate: "Present",
+    endDate: "Aug 2026",
     titleJob: "Warehouse Staff (Part-time)",
     stack: "Warehouse Operations, Inventory",
     missions: [
@@ -28,7 +28,7 @@ export const workData: ArticleXpProps[] = [
       {
         title: "Software development and IT support",
         bulletPoints: [
-          "Worked on projects using C# and .NET Framework.",
+          "Worked on projects using C# .NET Framework(ASP.NET MVC, Windows Forms).",
           "Troubleshot computer and software issues.",
           "Assisted with basic networking and connectivity troubleshooting.",
         ],

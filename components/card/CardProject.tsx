@@ -26,18 +26,21 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <div className="rounded-xl text-card-foreground shadow flex flex-col overflow-hidden border border-border hover:shadow-lg transition-all duration-300 ease-out h-full bg-card">
-      <div className="relative h-40 w-full overflow-hidden flex items-center justify-center">
-        {imageSrc && (
+      <div className="relative h-40 w-full overflow-hidden bg-muted">
+        {imageSrc ? (
           <Image
             src={imageSrc}
             alt={`Project ${title}`}
             fill
-            className="object-cover object-center absolute"
+            className="object-cover object-center"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             loading="eager"
           />
+        ) : (
+          <div className="flex h-full w-full items-center justify-center">
+            <p className="text-sm text-muted-foreground">No image available</p>
+          </div>
         )}
-        <p className="text-sm text-muted-foreground">No image available</p>
       </div>
       <div className="flex flex-col justify-between flex-1 gap-4 p-2">
         <div className="flex flex-col gap-4 ">
