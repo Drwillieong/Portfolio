@@ -13,13 +13,13 @@ export default function HeroEducation() {
       <div className="flex flex-col gap-3 justify-start items-start">
         <h1 className="md:text-5xl text-3xl font-bold">Kevin Corpuz Bolado</h1>
         <p className="text-muted-foreground text-base italic tracking-wide">
-          "Hire niyo nako plzzzz ^^ 
+          "Hire niyo nako plzzzz HIHI ^^ 
          </p>
       </div>
       <div className="flex items-center justify-center shrink-0">
         <Image
           src="https://github.com/Drwillieong.png"
-          alt="Image de profil Kevin Corpuz Bolado"
+          alt="profile image of Kevin Corpuz Bolado"
           width={140}
           height={140}
           className="rounded-full"

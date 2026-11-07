@@ -5,7 +5,7 @@ export const educationData: ArticleXpProps[] = [
     company: "City College of Calamba",
     startDate: "2023",
     endDate: "Present",
-    titleJob: "Bachelor of Science in Information Technology (BS IT)",
+    titleJob: "Bachelor of Science in Information Technology (BSIT)",
     stack: "Information Technology",
     missions: [
       {
@@ -16,7 +16,7 @@ export const educationData: ArticleXpProps[] = [
           "Database Management System",
           "Information Assurance & Security (IAS)",
           "System Administration and Maintenance (SAM)",
-          "Software Quality Assurance (SQA)",
+          "Software Quality Assurance (SQA )",
         ],
       },
     ],
